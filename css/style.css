@@ -4,7 +4,7 @@ html {
 }
 body {
   background-color:blanchedalmond;
-  margin: 0;
+  margin: 50px;
   display: block;
 }
 .titulo {
@@ -17,8 +17,14 @@ body {
   font-size: 20px;
 }
 .frame {
-  background: transparent; 
+  background:#aaa; 
+  margin: 100px;
   border: 0px solid #ccc;
-  width:900px; 
-  height:450px
+  width:900px; /*Ancho*/
+  height: 450px /* Alto*/
+}
+.questions{
+        font-family: 'Tangerine', serif;
+        font-size: 10px;
+        text-shadow: 4px 4px 4px #aaa;
 }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .frame-questions {
+  background:rgba(170, 170, 170, 0.39); 
+  margin: 100px;
+  border: 0px solid #ccc;
+}
+  </style>
+  <title>Questions</title>
+</head>
+<body>
+  <div>
+    <div>
+      1. ¿Qué devuelve la siguiente función?
+    </div>
+    <p>
+      <iframe class="frame" src='/doc/pre1.html' frameborder="10"></iframe>
+     <br>
+     - A: `Lydia` y `undefined`<br>
+     - B: `Lydia` y `ReferenceError`<br>
+     - C: `ReferenceError` y `21`<br>
+     - D: `undefined` y `ReferenceError`<br>
+     
+     <details><summary><b>Solución</b></summary>
+     
+     
+     #### Respuesta correcta: D
+     </p>
+     <p>
+     
+     Dentro de la función, primero declaramos la variable `name` con la palabra reservada ` var`. Esto significa que la      variable se _eleva_ (el espacio de memoria se configura durante la fase de creación. Hace referencia al termino      [hoisting](https://developer.mozilla.org/es/docs/Glossary/Hoisting)) con el valor predeterminado de `indefinido`,      hasta que realmente llegamos a la línea donde definimos la variable. Aún no hemos definido la variable en la línea      donde intentamos registrar la variable `name`, por lo que aún mantiene el valor de` undefined`.
+     
+     Las variables con la palabra clave `let` (y` const`) se _elevan_, pero a diferencia de `var`, no se inicializa <i> </     i>. No son accesibles antes de la línea que los declaramos (inicializamos). Esto se llama la ["zona muerta temporal"]     (https://wesbos.com/temporal-dead-zone/). Cuando intentamos acceder a las variables antes de que se declaren,      JavaScript lanza un `ReferenceError`
+     </p>
+     </details>
+     </p>
+     </details>
+     
+  </div>
+  
+</body>
+</html>
+
+
