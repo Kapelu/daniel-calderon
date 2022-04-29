@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Tangerine&display=swap');
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color:blanchedalmond;
+  margin: 50px;
+  display: block;
+  width:1250px; /*Ancho*/
+  height: 400px /* Alto*/
+}
+.flex-container {
+  display: flex;
+  border: 10px rgb(36, 82, 167);
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: space-between;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: stretch;
+  order: 0;
+}
+
+.frame {
+  background:rgb(189, 189, 189); 
+  margin: 100px;
+  border: 0px solid rgba(204, 204, 204, 0);
+  width:800px; /*Ancho*/
+  height: 400px /* Alto*/
+}
