@@ -1,25 +1,101 @@
 <!DOCTYPE html>
-<html lang='es'>
+<html lang="es">
 <head>
-    <meta charset='UTF-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel="stylesheet" href="/style/body.css">
-    <link rel="stylesheet" href="/style/text.css">
-    <link rel="icon" href="/img/devchallenges.png">
-    <title>Challenge JavaScript - Kapelú</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Tamara Antonella Frazzetta</title>
+  <link rel="stylesheet" href="css/style.css">  
 </head>
-<body class="flex-container">
-    <div class='titulo'style: align="center"> Challenge Javascript!!!</div>
-    <div class='intro'>
-        <p>
-            Publicaré preguntas de múltiples opciones en JavaScript. Desde lo básico a lo avanzado: Comprueba si realmente conoces Javascript, actualiza tus conocimientos 💪 🚀
-            <br>
-            Actualizaré este repo cada 48Hs con nuevas preguntas. Las respuestas se encuentran en las secciones contraídas debajo de las preguntas, simplemente haz clic en ellas para expandirlas. Buena suerte ❤️
-        </p>
-    </div>
-    <div class='pregunta'>                        
-            <iframe class="frame" src="/doc/question.html" frameborder="10"></iframe>
-    </div>
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="logo">
+            <img src="img/perfil.png" alt="Foto de perfil">
+            <p>Tamara Antonella Frazzetta</p>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="">Sobre mí</a>
+            <a href="">Repositorio</a>
+            <a href="">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+    <section class="banner">
+        <div>
+            <div class="contenedor banner_text">
+                <h2>Bienvenido</h2>
+                <p>Me presento, futura Front End Developer. Empecé como autodidacta y hoy estoy realizando cursos virtuales capacitandome cada vez más en este mundo de desarrollo web.</p>
+                <a href="https://flowcv.me/tamara-antonella-frazzetta">Ver más</a>
+            </div>
+        </div>
+    </section>
+    <!-- TEXTO BOTTOM BANNER -->
+    <section class="bottom_banner">
+        <div class="contenedor">
+            <h2>Skills</h2> <br>
+            <p>Actualmente estoy estudiando HTML, CSS, SASS, Bootstrap, GIT/GITHUB, Javascript y próximamente estaré capacitandome en React Js y Phyton. <br> <br>
+            Mi nivel de inglés es C2, y estoy capacitándome en Open English. </p>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="aboutme">
+        <div class="contenedor">
+            <div class="aboutme_img">
+                <img src="img/p1.png" alt="">
+            </div>
+            <div class="aboutme_text">
+                <h2>Autodidacta y comprometida</h2> <br>
+                <p>En mi repositorio de GitHub están mis proyectos en los que estoy trabajando. Siempre trato de mejorar y aprender algo nuevo que pueda implementar. También podes encontrarme en otras redes sociales que dejo a continuación</p>
+                <div class="aboutme_text--icons">
+                    <ul>
+                        <li><a href="https://github.com/tamaraantonella"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"/></a></li>
+                        <li><a href="https://www.linkedin.com/in/tamara-antonella-f-5756939b/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAP5JREFUSEvtlc8NAUEUh7+tgBJw4IgK0IESnCUOEgVQgEQkzkoQHdABNwcHOqAB5MnbZHYysXbGxmXnNPt23u97/2Y3IucV5ayPC1ADHsDlF3AbsARGKjwHJqEQE9AATpZgBbiGQNIA1dBS2SVaAUONeAGMQ6IXX1eT69rkc6i4C9AFnip8Bw66bwEly14GmoD4yLmjq5x2BrG4aO3VWfY7oKMAsU+BDSAQc4l9Zhp8AHI/RNgWj3V7GtD72QeQ1pot0I8P+QJMkQGwNqiSoYx3UAZtYwBE6GYMQaIyvhnYfuYQFABn74oSJT4Vrgv6dYnSbmnm93/56WeO8pPDC6yAShkkBxiqAAAAAElFTkSuQmCC"></a></li>
+                        <li><a href="https://wa.link/oxxvna"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbRJREFUSEvNleExBEEQRt9lQATIQAbIgAgQASJABIiADMiAiwARkAEioN5V99aYnZ37dVXXVVNXtzvTX/fr7tkZK7bZiv2zFgL7wDGwG+sbeANegHn8ToLoZbAN3AMK/BRON0JoL7w+AaeAwiObEjDaZ1ggvAWuJkI8B27C+VErm5aAEX5E1IcRea8XDOYB2AJ26kxaAqYsFpesFXR9dlQUeQU8ayaD1QK58TqwWAcPytfoepa4FFBoYbWAvM+AzXCah9xrIUXRs1/gDvBcU8DW08SjlQL/IptQqc+PMpCzm07CgYgsuIjMaplJwJkZ9taIFLCwdk9aZiEeMfXMdr4s0dcCoxTDm86NzN8LIIfQYso8h8z/NorvmzXIItsxdVvmO5250kl2nA59rkgiHtUgmZeHSiQWXwx5TXiF5Lzo1KvloJzo1qBNYSqFDMRlvTIb5+W96MAmIh+OenlJYWVu5GLNbIYjdQZ2z2MU8isOWIuykHnY68OhtMv0M3LuxqlJbgUtOsVEYtQ5jH4T5N+8q2oBmeaw6dD/sjbKbD8j97nLjsmaNUmuxSdz2fXQfb/yDP4AZJloGU7UfncAAAAASUVORK5CYII="/></a></li>
+                        <li><a href="mailto:tamarafrazzetta@gmail.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQhJREFUSEvtldERwUAURU8qoAN0oAM6QAdUgApQASqgBDqgAyUogQqYa3bN2tlkk4wYH7k/ycjuPfvue4mEipVU7E8NiCbsRjQGdsANWALb6O7PBdq/Nj/Ngb3uXcAVaDl7DsDEALNYTWMsgJW8Oj7gEXDRwhFwSSF0TdW6+nod3q0gBLCbZoHIbCSqIKRCABnYyHSvXg0jPSoMkJ8ik9o5BqAUIIfve0kUcAT6QCPiegdOwMBbFwWsgI3JvpcCOZteaAgWZQB64SRdfQMdIOt5rgqsgSCKS5MkaYIUi1XoAIUBMrMzr8+Jq68B0vr9HwBNzNQ5otvE2Pz7FehLrMmq/9Fiyf0goide8TgZZ2khYwAAAABJRU5ErkJggg=="/></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="center_footer">
+            <div class="contenedor">
+                <div class="widget">
+                    <h4>Adaptabilidad</h4>
+                    <p>Gran predisposición para trabajar tanto de manera grupal como individual.</p>
+                </div>
+                <div class="widget">
+                    <h4>Comunicación</h4>
+                    <p>Comunicación de forma asertiva y apropiada, esencial para el trabajo en equipo.</p>
+                </div>
+                <div class="widget">
+                    <h4>Automotivación</h4>
+                    <p>Aprendizaje constante e independiente, lo considero clave para el crecimiento personal y profesional.</p>
+                </div>
+                <div class="widget">
+                    <h4>Gestión</h4>
+                    <p>Del trabajo y del tiempo para un mejor desempeño.</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- <a href="https://iradesign.io">Illustrations by IRA Design</a>  -->
 </body>
 </html>

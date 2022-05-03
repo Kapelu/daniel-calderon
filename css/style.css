@@ -1,0 +1,249 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+:root{
+    --main--color: #AB46D2;
+    --second--color: #FF6FB5;
+    --hover--color: #55D8C1;
+    --bg--color: #FCF69C;
+}
+.contenedor{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 200px;
+    background: white;
+}
+.logo{
+    padding: 1rem;
+}
+.logo img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.logo p{
+    width:fit-content;
+    display: block;
+    margin: auto;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    max-width: 700px;
+    margin: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--second--color) ;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all 1s ease-in-out;
+}
+
+@media screen and (min-width:720px){
+    .menu a:hover{
+        color: var(--main--color); 
+        
+       }
+    .logo img{
+        width: 120px;
+        display: block;
+        margin: auto;
+    }
+    header{
+        width: 100%;
+        height: 250px;
+        background: white;
+    }
+
+}
+/* FIN-----------HEADER */
+
+
+/* BANNER */
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/bg-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner > div{
+    background-color:rgba(11, 11, 10, 0.8);
+    width: 100%;
+    height: 100%;
+
+}
+.banner_text{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.banner_text h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem 0;
+    max-width: 470px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.banner_text p{
+    margin: 1rem 0;
+}
+
+.banner_text a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 2rem;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.banner_text a:hover{
+    
+    transform: scale(1.2);
+    color: #AB46D2;
+    
+}
+@media screen and (min-width:720px){
+    .banner_text p{
+        font-size: 25px;
+    }
+    .banner_text h2{
+        font-size: 2rem;
+       
+    }
+}
+/* FIN---------- BANNER */
+
+/* TEXTO BOTTOM BANNER */
+.bottom_banner{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    min-height: 200px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.bottom_banner h2{
+    text-transform: uppercase;
+}
+/* FIN--------TEXTO BOTTOM BANNER */
+
+/* ABOUT ME */
+.aboutme{
+    background-color: #ff96c9;
+}
+.aboutme>.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.aboutme_img{
+    width: 100%;
+    max-width: 600px;
+}
+.aboutme_img img{
+    width: 100%;
+}
+
+.aboutme_text{
+    text-align: center;
+}
+.aboutme_text h2{
+ 
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.aboutme_text--icons ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.aboutme_text--icons ul li{
+    transition: all 1s ease-in-out;
+}
+.aboutme_text--icons ul li:hover{
+    transform: scale(1.3);
+}
+@media screen and (min-width:720px){
+    .aboutme>.contenedor{
+        flex-wrap: nowrap;
+       
+    }
+}
+/* FIN ABOUTME */
+
+/* FOOTER */
+.center_footer .contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.widget{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.widget h4{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.copyright{
+    text-align: center;
+}
+@media screen and (min-width:720px){
+    .center_footer .contenedor{
+        flex-direction: row;
+        justify-content: space-around;
+        
+        height: 200px;
+    }
+    
+    
+    .widget{
+        max-width: 300px;
+    }
+}
