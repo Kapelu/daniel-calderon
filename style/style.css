@@ -11,8 +11,9 @@
       font-weight:bold; 
       color:#000000; 
       background:#ffee00;
-       }
-       .botonHenry:hover{
+    }
+
+    .botonHenry:hover{
       padding:11px 32px; 
       border:solid 1px #ffee00; 
       -webkit-border-radius:50px;
@@ -21,9 +22,9 @@
       font:17px Arial, Helvetica, sans-serif; 
       font-weight:bold; 
       color:#000000; 
-      
-      }
-      .botonHenry:active{
+    }
+    
+    .botonHenry:active{
       padding:11px 32px; 
       border:solid 1px #ffee00; 
       -webkit-border-radius:50px;
@@ -32,9 +33,9 @@
       font:18px Arial, Helvetica, sans-serif; 
       font-weight:bold; 
       color:#000000; 
-
-      }
-      /*CSS Botón Henry - FIN*/
+    }
+    
+    /*CSS Botón Henry - FIN*/
 
       /*NOMBRE DEBAJO DEL CIRCULO DE LA FOTO*/
       .nombre-DanielCalderon{
