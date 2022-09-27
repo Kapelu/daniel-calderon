@@ -1,5 +1,61 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&subset=cyrillic,cyrillic-ext,latin-ext);
 
+/*NOMBRE DEBAJO DEL CIRCULO DE LA FOTO*/
+.nombre-DanielCalderon {
+	color: #6c56a0;
+}
+/*FULL STACK DEVELOPER*/
+.FullStacDeveloper {
+	color: #838383;
+}
+/*PELE texto*/
+.pele {
+	color: #ffffff;
+}
+
+a, body, p, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 *,
 :after,
 :before {
@@ -31,31 +87,11 @@ body {
 	line-height: 1.6;
 	font-size: 1.4rem;
 }
-
-/*NOMBRE DEBAJO DEL CIRCULO DE LA FOTO*/
-.nombre-DanielCalderon {
-	color: #6c56a0;
-}
-/*FULL STACK DEVELOPER*/
-.FullStacDeveloper {
-	color: #838383;
-}
-/*PELE texto*/
-.pele {
-	color: #ffffff;
-}
-
-a,
-body,
-video {
-	margin: 0;
+button {
+	cursor: pointer;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	background-color: inherit;
 }
-
 img {
 	width: 100%;
 	height: auto;
@@ -82,7 +118,9 @@ strong {
 	}
 }
 
-/*!sc*/
+/*<style data-styled="true" data-styled-version="5.3.3">
+    
+    /*!sc*/
 [hidden] {
 	display: none;
 }
@@ -109,7 +147,11 @@ q:before {
 	content: '';
 	content: none;
 }
-
+/*!sc*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /*!sc*/
 html {
 	-webkit-scrollbar-width: none !important;
@@ -119,7 +161,10 @@ html {
 	box-sizing: border-box;
 	font-size: 59%;
 }
-
+/*!sc*/
+html::-webkit-scrollbar {
+	display: none;
+}
 /*!sc*/
 *,
 :after,
@@ -143,7 +188,12 @@ body {
 	font-weight: 400;
 	font-display: swap;
 }
-
+/*!sc*/
+button {
+	cursor: pointer;
+	padding: 0;
+	background-color: inherit;
+}
 /*!sc*/
 img {
 	width: 100%;
@@ -230,7 +280,11 @@ data-styled.g12[id='sc-pVTFL'] {
 	-ms-flex-item-align: center;
 	align-self: center;
 }
-
+/*!sc*/
+/*!sc*/
+data-styled.g14[id='sc-kDTinF'] {
+	content: 'cObQur,';
+}
 /*!sc*/
 .kpfAno {
 	width: 4.6rem;
