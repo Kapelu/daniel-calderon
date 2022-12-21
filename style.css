@@ -354,7 +354,7 @@ data-styled.g17[id='sc-egiyK'] {
 .fUhYhU img {
 	-webkit-transition: width 0.3s;
 	transition: width 0.3s;
-	max-width: 18rem;
+	max-width: 38rem;
 	min-width: 0;
 	-webkit-align-self: center;
 	-ms-flex-item-align: center;
@@ -363,7 +363,7 @@ data-styled.g17[id='sc-egiyK'] {
 /*!sc*/
 @media screen and (min-width: 1024px) {
 	.fUhYhU img {
-		max-width: 20rem;
+		max-width: 40rem;
 	}
 }
 /*!sc*/
