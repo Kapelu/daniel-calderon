@@ -1,0 +1,72 @@
+.card {
+	border: 5px solid #ffffff00;
+	width: 750px;
+	height: 650px;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nombre{
+	margin:10px;
+	font-family: var(--frase-pele);
+	font-size:large;
+	color: var(--home-nombre);
+}
+
+.foto-perfil {
+	width: 14rem;
+	height: 14rem;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.foto {
+	width: 100%;
+	height: auto;
+}
+
+.redes-sociales {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logo {
+	background-color:none;
+	border: 5px solid #ffffff00;
+	padding: 10px;
+	width: 4rem;
+	height: 4rem;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 50px;
+	text-decoration: none;
+}
+
+.logo svg {
+	height: 2rem;
+	fill: #4ca076;
+}
+
+.frase-pele {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.frase {
+	font-family: var(--frase-pele);
+	font-size:x-large;
+	color: var(--home-frase-pele);
+	text-align:justify;
+}
+
+.pele {
+	font-family: var(--frase-pele);
+	font-size:large;
+	color: var(--home-frase-pele);
+	align-self: flex-end;
+}

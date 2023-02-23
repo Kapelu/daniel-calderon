@@ -1,0 +1,28 @@
+.card {
+	border: 5px solid #ffffff00;
+	width: 750px;
+	height: 950px;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: auto;
+}
+
+.name{
+	color: #db810cf1;
+	font-size: 18px;
+}
+.profesion{
+	margin:10px;
+	font-family: var(--frase-pele);
+	font-size:large;
+	color: var(--home-nombre);
+}
+
+.presentacion {
+	font-family: var(--frase-pele);
+	font-size:large;
+	color: var(--home-frase-pele);
+	text-align:justify;
+}
