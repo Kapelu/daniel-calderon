@@ -13,7 +13,8 @@ export default function Portfolio() {
 					<p>Portfolio</p>
 					<h1>Daniel Calderon</h1>
 				</div>
-				<div className='datos'></div>
+				<div className='datos'>
+				</div>
 			</div>
 		</>
 	)
