@@ -2,16 +2,16 @@
 import Nav from '../components/Nav'
 import Card from '../components/Card'
 import fotoPerfil from '../img/keiko.png'
-import proyectoUno from '../img/proyecto1.png'
+
 import './style.css'
 import './portfolio.css'
 
 export default function Portfolio() {
 	const data = [
 		{
-			imagen: {proyectoUno},
-			titulo: 'Título 1',
-			descripcion: 'Descripción 1',
+			imagen: require('../img/proyecto1.png'),
+			titulo: 'Profile',
+			descripcion: 'Primer Porfolio echo con HTML y CSS',
 			url: 'https://github.com/Kapelu/proyectos-personales/tree/main/Daniel%20Calderon%20-%20Profile ',
 		},
 		{
