@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Permanent+Marker&family=Shantell+Sans:ital,wght@1,800&display=swap');
 :root {
-	--background-nav: #02779e;
-	--background: #02779e;
+	--background-nav: #33305c;
+	--background:#4a4787;
+	--background-gradiente:linear-gradient(180deg, #33305f 0%, #38386eba 50%, #6060bac8 100%);
 	--home-frase-pele:#ffffffbb;
 	--home-nombre:#db820cc4;
 	--nombre:'Dancing Script', cursive;
@@ -9,13 +10,6 @@
 	--frase-frase:'Permanent Marker', cursive;
 	--frase-pele:'Courgette', cursive;
 }
-
-/* .color1 { #160d18 };
-.color2 { #23145b };
-.color3 { #09456c };
-.color4 { #026f6e };
-.color5 { #1ca39e };
- */
 /*# Scrollbar */
 ::-webkit-scrollbar {
 	width: 0px;

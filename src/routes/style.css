@@ -1,7 +1,8 @@
 .container-home,.container-about,.container-portfolio,.container-contact {
-	background-color: var(--background);
-	/* background: url(../img/background1.jpg)no-repeat center center fixed; */
-	/* opacity: 0.85; */
+	background: var(--background);
+background: var(--background-gradiente);
+	/* background: url(../img/background1.jpg)no-repeat center center fixed;
+	opacity: 0.85; */
 	background-size: cover;
 	margin: 0px;  
 	padding: 0px;
@@ -12,7 +13,6 @@
 	align-items: center;
 	overflow: auto;
 }
-
 
 .foto-perfil {
 	width: 14rem;
