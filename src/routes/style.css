@@ -13,6 +13,15 @@ background: var(--background-gradiente);
 	align-items: center;
 	overflow: auto;
 }
+.card {
+	border: 5px solid #ffffff00;
+	width: 765px;
+	height: 650px;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 .foto-perfil {
 	width: 14rem;

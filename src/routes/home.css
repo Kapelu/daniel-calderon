@@ -1,12 +1,4 @@
-.card {
-	border: 5px solid #ffffff00;
-	width: 750px;
-	height: 650px;
-	padding: 2em;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+
 .nombre{
 	margin:10px;
 	font-family: var(--frase-pele);

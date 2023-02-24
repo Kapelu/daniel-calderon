@@ -1,4 +1,5 @@
 import Nav from '../components/Nav'
+
 import './style.css'
 import './about.css'
 import fotoPerfil from '../img/keiko.png'
@@ -68,28 +69,3 @@ export default function About() {
 		</>
 	)
 }
-
-/* 
-
-				Si deseas presentarte como un desarrollador full-stack junior, es importante que tu descripción incluya información relevante sobre tus habilidades técnicas y experiencia. Aquí hay algunos puntos clave que podrías considerar incluir:</p>
-<p>
-Presentación: Inicia presentándote y mencionando que eres un desarrollador full-stack junior. Por ejemplo, "Hola, soy [tu nombre] y me describo como un desarrollador full-stack junior".
-
-Habilidades técnicas: Menciona las habilidades técnicas que has aprendido y desarrollado. Incluye tecnologías y herramientas que has utilizado en proyectos, como lenguajes de programación, frameworks, bases de datos, control de versiones, etc. Asegúrate de mencionar que eres capaz de trabajar tanto en la parte delantera como en la trasera del sitio web.
-
-Experiencia: Si tienes experiencia previa en desarrollo, aunque sea en proyectos personales, menciona cuánto tiempo has estado programando y cuáles han sido tus logros hasta el momento. Si no tienes experiencia laboral previa, enfatiza tu pasión por la programación y los proyectos que has creado por tu cuenta.
-
-Actitud: Describe cómo te gustaría contribuir en una empresa y cuál es tu actitud hacia el trabajo en equipo. Habla sobre tu disposición para aprender y recibir retroalimentación.
-
-Aquí hay un ejemplo de cómo podrías presentarte:
-
-"Hola, soy [tu nombre] y me describo como un desarrollador full-stack junior. Tengo experiencia en la creación de aplicaciones web utilizando tecnologías como JavaScript, Node.js, React, Express, MongoDB y MySQL. He trabajado en proyectos personales y he aprendido mucho en los últimos meses.
-
-Me apasiona la programación y me encanta aprender nuevas tecnologías. Me gustaría unirme a una empresa donde pueda contribuir y seguir aprendiendo en equipo. Soy una persona amigable y me gusta trabajar con otras personas para lograr objetivos comunes. Me considero un buen comunicador y estoy dispuesto a recibir retroalimentación y mejorar constantemente. Me encantaría ser parte de un equipo que cree en la cultura de la colaboración y el aprendizaje continuo."
-					</p>
-
-				</div>
-			</div>
-		</>
-	)
-} */

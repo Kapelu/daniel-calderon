@@ -2,7 +2,7 @@
 :root {
 	--background-nav: #33305c;
 	--background:#4a4787;
-	--background-gradiente:linear-gradient(180deg, #33305f 0%, #38386eba 50%, #6060bac8 100%);
+	--background-gradiente:linear-gradient(180deg, #33305f 0%, #6060bac8 100%);
 	--home-frase-pele:#ffffffbb;
 	--home-nombre:#db820cc4;
 	--nombre:'Dancing Script', cursive;
