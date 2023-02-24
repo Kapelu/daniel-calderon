@@ -51,8 +51,7 @@ export default function About() {
 							demás. Disfruto trabajar con personas de diferentes
 							antecedentes y con diferentes niveles de
 							experiencia, y estoy comprometido con la creación de
-							un ambiente de trabajo inclusivo y colaborativo. Me
-							encantaría ."
+							un ambiente de trabajo inclusivo y colaborativo."
 						</p>
 						<br />
 						<p className='presentacion'>
