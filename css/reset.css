@@ -1,6 +1,8 @@
-/*# Fuentes importadas */
-
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Permanent+Marker&family=Shantell+Sans:ital,wght@1,800&display=swap');
+/*
+# Fuentes importadas
+! importar las fuentes desde el html para cargar mas rapido
+? @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Permanent+Marker&family=Shantell+Sans:ital,wght@1,800&display=swap');
+ */
 
 /*# Variables de colores y fuente */
 :root {
@@ -29,15 +31,15 @@
 
 /* Tank you Paul Irish*/
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 *,
 *:before,
 *:after {
-    margin: 0;
+	margin: 0;
 	padding: 0;
-    box-sizing: inherit;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	box-sizing: inherit;
 }

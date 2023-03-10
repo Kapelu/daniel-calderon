@@ -3,77 +3,8 @@ body {
     overflow: hidden;
 }
 
-nav {
+.header {
     background: var(--background-nav);
     height: 50px;
 }
 
-.container {
-    margin:auto;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-    line-height: 50px;
-    z-index: 100;
-}
-
-
-.links .link {
-    display: inline-block;
-}
-
-.links .link a {
-    text-decoration: none;
-    color: #d1faf4;
-    font-size: 20px;
-    margin: 0 25px;
-    letter-spacing: 3px;
-    transition: .3s;
-}
-
-.links .link a:hover {
-    color: #487abb;
-}
-
-.toggle {
-    color: #d1faf4;
-    margin-right: 20px;
-    font-size: 30px;
-    transform: rotate(270deg);
-    cursor: pointer;
-    transition: .0s;
-    display: none;
-}
-
-.rotate {
-    transform: rotate(-360deg);
-}
-
-@media screen and (max-width: 795px){
-    .toggle {
-        display: inline-block;
-    }
-
-    .links {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        background: #021222;
-        text-align: center;
-        overflow: hidden;
-        height: calc(100vh - 50px);
-        width: 100%;
-        z-index: -1;
-        top: -100vh;
-        transition: .5s;
-    }
-
-    .active {
-        top: 50px;
-    }
-
-    .links .link:hover {
-        background: #051c38;
-    }
-    
-}
