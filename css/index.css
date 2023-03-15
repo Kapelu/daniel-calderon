@@ -3,6 +3,7 @@ html {
 	box-sizing: border-box;
 	font-family: sans-serif;
 	font-size: 16x;
+    scroll-behavior: smooth;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -51,13 +52,21 @@ img{
     height: auto;
 }
 
+[id]{
+    scroll-margin-top: 8ex;
+}
+
 .header {
+    height: 4rem;
     position: sticky;
     top:0;
     padding: 0.25rem;
-    text-align: center;
     background-color:var(--bg-nav);
-    color:var(--letras)
+    color:var(--letras);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 header a {
@@ -75,9 +84,11 @@ header a:hover {
     width: 100%;
     min-height: 100vh;
     color: #352e2e;
+    padding: 2rem;
+    scroll-margin-top: 4rem;
     background-color: #4a4787;
 }
 
 .slide:nth-child(even){
-    
+    background-color: #847eee;
 }
