@@ -1,5 +1,11 @@
+
 :root{
-    --home-nombre: #db820cc4;
+    --color-nombre: #af2eebc4;
+    --color-profesion: #54eb2ec4;
+    --color-frase: #807e7ec4;
+    --font-nombre: 'Indie Flower', cursive;
+    --font-profesion: 'Edu NSW ACT Foundation', cursive;
+    --font-frase: 'Dancing Script', cursive;
 }
 .slide-home{
     width: 100%;
@@ -17,10 +23,36 @@
 }
 
 .home-foto-perfil{
+    width: 30rem;
     border:1px dotted #643b80a2;
     border-radius: 50%;
 }
 
 .home-nombre{
-    color: var(--home-nombre);
+    font-family: var(--font-frase);
+    font-style: oblique;
+    font-size: 5rem;
+    color: var(--color-nombre);
+}
+
+.home-profesion{
+    font-family: var(--font-profesion);
+    font-style: oblique;
+    font-size: 2rem;
+    color: var(--color-profesion);
+}
+
+.home-frase-pele{
+    font-family: var(--font-frase);
+    font-style: oblique;
+    font-size: 2rem;
+    color: var(--color-frase);
+}
+
+.home-pele{
+    font-family: var(--font-nombre);
+    font-style: oblique;
+    font-size: 2rem;
+    color: var(--color-frase);
+    text-align: left;
 }
