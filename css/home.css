@@ -38,14 +38,14 @@
 .home-profesion{
     font-family: var(--font-profesion);
     font-style: oblique;
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--color-profesion);
 }
 
 .home-frase-pele{
     font-family: var(--font-frase);
     font-style: oblique;
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--color-frase);
 }
 
