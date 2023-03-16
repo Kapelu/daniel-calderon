@@ -1,7 +1,7 @@
 
 :root{
     --color-nombre: #af2eebc4;
-    --color-profesion: #54eb2ec4;
+    --color-profesion: #6d6d6d;
     --color-frase: #adacacd2;
     --font-nombre: 'Indie Flower', cursive;
     --font-profesion: 'Edu NSW ACT Foundation', cursive;
@@ -37,7 +37,6 @@
 
 .home-profesion{
     font-family: var(--font-profesion);
-    font-style: oblique;
     font-size: 1rem;
     color: var(--color-profesion);
 }
@@ -45,14 +44,14 @@
 .home-frase-pele{
     font-family: var(--font-profesion);
     font-style: oblique;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--color-frase);
 }
 
 .home-pele{
     font-family: var(--font-profesion);
     font-style: oblique;
-    font-size: .5rem;
+    font-size: .85rem;
     color: var(--color-frase);
     text-align: left;
 }
