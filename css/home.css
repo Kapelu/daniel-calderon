@@ -52,7 +52,7 @@
 .home-pele{
     font-family: var(--font-nombre);
     font-style: oblique;
-    font-size: 2rem;
+    font-size: .5rem;
     color: var(--color-frase);
     text-align: left;
 }
