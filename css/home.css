@@ -2,7 +2,7 @@
 :root{
     --color-nombre: #af2eebc4;
     --color-profesion: #54eb2ec4;
-    --color-frase: #807e7ec4;
+    --color-frase: #adacacd2;
     --font-nombre: 'Indie Flower', cursive;
     --font-profesion: 'Edu NSW ACT Foundation', cursive;
     --font-frase: 'Dancing Script', cursive;
@@ -43,14 +43,14 @@
 }
 
 .home-frase-pele{
-    font-family: var(--font-frase);
+    font-family: var(--font-profesion);
     font-style: oblique;
     font-size: 1rem;
     color: var(--color-frase);
 }
 
 .home-pele{
-    font-family: var(--font-nombre);
+    font-family: var(--font-profesion);
     font-style: oblique;
     font-size: .5rem;
     color: var(--color-frase);
