@@ -36,7 +36,7 @@ html {
 
 /*# Variables de colores y fuente */
 :root {
-	--bg-nav: #33305c;
+	--bg-nav: #201e33;
 	--background: #4a4787;
 	--background-gradiente: linear-gradient(180deg, #33305f 0%, #6060bac8 100%);
 	--letras: #ffffffbb;
@@ -81,11 +81,13 @@ header a:hover {
 }
 
 .slide{
+    border:2px dotted #252525b2;
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
     color: #9b1717;
+    padding-top: 0;
     padding: 2rem;
     scroll-margin-top: 3rem;
     background-color: #4a4787;

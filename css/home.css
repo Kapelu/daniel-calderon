@@ -1,14 +1,26 @@
-.home{
+:root{
+    --home-nombre: #db820cc4;
+}
+.slide-home{
     width: 100%;
-    height: 100%;
-    padding: rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #9b1717;
+    background-image: url(../img/background.webp);
+    background-size:contain ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border:2px dotted rgba(37, 37, 37, 0.699); */
+    scroll-margin-top: 3rem;
 }
 
 .home-foto-perfil{
+    border:1px dotted #643b80a2;
     border-radius: 50%;
+}
+
+.home-nombre{
+    color: var(--home-nombre);
 }
