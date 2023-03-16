@@ -36,7 +36,7 @@ html {
 
 /*# Variables de colores y fuente */
 :root {
-	--bg-nav: #201e33;
+	--bg-nav: #35335f;
 	--background: #4a4787;
 	--background-gradiente: linear-gradient(180deg, #33305f 0%, #6060bac8 100%);
 	--letras: #ffffffbb;
