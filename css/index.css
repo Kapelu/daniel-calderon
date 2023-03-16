@@ -20,13 +20,13 @@ html {
 ::-webkit-scrollbar {
     width: 0px;
 } 
-/* 
 ::-webkit-scrollbar-track {
-	background: #ffffff;
+    background: #ffffff;
 }
 ::-webkit-scrollbar-thumb {
-	background: #ffffff;
+    background: #ffffff;
 }
+/* 
  */
 
 /*# Fuentes importadas
