@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:2px dotted rgba(37, 37, 37, 0.699);
+    /* border:2px dotted rgba(37, 37, 37, 0.699); */
 }
 
 .home-foto-perfil{
