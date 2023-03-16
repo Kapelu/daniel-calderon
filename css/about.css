@@ -1,0 +1,36 @@
+:root {
+	--color-nombre: #3d0855c4;
+	--color-profesion: #414141;
+	--color-frase: #5e582ad2;
+	--font-nombre: 'Indie Flower', cursive;
+	--font-profesion: 'Edu NSW ACT Foundation', cursive;
+	--font-frase: 'Dancing Script', cursive;
+}
+.slide-about {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	color: #9b1717;
+    background: #6060bac8;
+	background: linear-gradient(
+		180deg,
+		#6060bac8 0%
+		#35335f 62%,
+	);
+    /* 
+	background-image: url(../img/background.webp);
+	background-size: contain;
+    */
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	scroll-margin-top: 3rem;
+}
+
+.about-me{
+    width: 30rem;
+	border: 1px dotted #643b80a2;
+	border-radius: 50%;
+}
