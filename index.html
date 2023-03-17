@@ -6,7 +6,7 @@
 		<meta name="theme-color" content="#4e4e4e" />
 		<meta
 			name="description"
-			content="Página principal de Daniel Calderon, fulls stack developer."
+			content="Hola bienvenid@ a mi Portafolio Profesional, soy Daniel Calderon, fulls stack developer."
 		/>
 		<!-- # Metadatos para link enriquesidos
 		<meta property="og:title" content="The Rock" />
@@ -14,19 +14,14 @@
         <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
         <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
 		-->
-		<link rel="canonical" href="http://dominio.com/la-url-canonical" />
+		
 		<link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
 		<link rel="icon" href="./img/favicon.ico" />
 		<link rel="manifest" href="manifest.json" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+NSW+ACT+Foundation:wght@700&family=Indie+Flower&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="./css/index.css" />
-		<link rel="stylesheet" href="./css/home.css" />
-		<link rel="stylesheet" href="./css/about.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./style.css" />
 
 		<script>
 			window.addEventListener('blur', () => {
@@ -40,133 +35,45 @@
 	</head>
 	<body>
 		<header class="header">
-			<!-- <h1>logo</h1> -->
-			<nav>
-				<a href="#home">Inicio</a>
-				<a href="#about">Acerca de mi</a>
-				<a href="#profile">Proyectos</a>
-				<a href="#contact">Contacto</a>
-			</nav>
+			<section class="container">
+				<div class="logo">
+					<a href="index.html">Kapelu</a>
+				</div>
+				<button class="menu-btn">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
+
+					<svg class='none' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
+				</button>
+				<nav class="menu">
+					<a href="#inicio">Inicio</a>
+					<a href="#acerca">Acerca</a>
+					<a href="#servicios">Servicios</a>
+					<a href="#portafolio">Portafolio</a>
+					<a href="#testimonio">Testimonios</a>
+					<a href="#contacto">Contacto</a>
+				</nav>
+			</section>
 		</header>
-		<section id="home" class="slide-home">
-			<img class="home-foto-perfil" src="./img/Kapelu.png" alt="Kapelu" />
-			<h1 class="home-nombre">Daniel Calderon</h1>
-			<h3 class="home-profesion">Full Stack developer</h3>
-			<br /><br /><br />
-			<p class="home-frase-pele">El exito no es un accidente.</p>
-			<p class="home-frase-pele">
-				Es trabajo duro, perseverancia, aprendizaje,
-			</p>
-			<p class="home-frase-pele">
-				estudio, sacrificio y, por sobre todo,
-			</p>
-			<p class="home-frase-pele">amor por lo que estás haciendo</p>
-			<p class="home-frase-pele">o aprendiedo a hacer.</p>
-			<br />
-			<p class="home-pele">Pelé</p>
-			<br />
+		<section id="inicio" class="home">
+			<h2>Home</h2>
 		</section>
-		<section id="about" class="slide-about">
-			<article class="about-me">
-				<h2 class="about">Acerca de mi</h2>
-				<br /><br />
-				<img
-					src="./img/about.svg"
-					alt="Puesta de Sol"
-					class="float-right shape-1"
-				/>
-				<p class="me">
-					Soy un desarrollador web autodidacta, durante los ultimos 3
-					años he dedicado gran parte de mi tiempo a adquirir
-					habilidades y conocimientos en el campo del desarrollo de
-					software.
-				</p>
-				<br />
-				<p class="me">
-					Cuento con experiencia en el desarrollo de aplicaciones
-					utilizando lenguajes de programación como HTML, CSS,
-					JavaScript, React, así como en la creación de bases de datos
-					y el manejo de herramientas de control de versiones como
-					Git.
-				</p>
-				<br />
-				<p class="me">
-					Soy una persona dedicada y comprometida con mi trabajo, y
-					estoy dispuesto a aprender y adquirir nuevos conocimientos
-					para mejorar mis habilidades como programador. Me gusta
-					enfrentar nuevos desafíos y encontrar soluciones creativas a
-					los problemas que se presentan.
-				</p>
-				<br />
-				<p class="me">
-					Estoy emocionado de tener la oportunidad de unirme a un
-					equipo y contribuir al crecimiento de una empresa. Creo que
-					esta va a ser una oportunidad ideal para seguir creciendo y
-					aprendiendo, y estoy dispuesto a trabajar arduamente para
-					alcanzar los objetivos de la empresa.
-				</p>
-				<br />
-				<p class="me">
-					Espero tener la oportunidad de poder contribuir a una
-					empresa como Programador Junior.
-				</p>
-			</article>
-			<article>
-				<div>
-					<h3>ADATABILIDAD</h3>
-					<p>Gran predisposición para trabajar tanto de manera grupal como individual.</p>
-				</div>
-				<div>
-					<h3>COMUNICACIÓN</h3>
-					<p>Comunicación de forma asertiva y apropiada, esencial para el trabajo en equipo.</p>
-				</div>
-				<div>
-					<h3>AUTOMOTIVACIÓN</h3>
-					<p>Aprendizaje constante e independiente, lo considero clave para el crecimiento personal y profesional.</p>
-				</div>
-				<div>
-					<h3>GESTIÓN</h3>
-					<p>Del trabajo y del tiempo para un mejor desempeño.</p>
-				</div>
-			</article>
+		<section id="acerca" class="about">
+			<h2>Acerca</h2>
 		</section>
-		<section id="profile" class="slide">
-			<h2>Sección 3</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-				iure exercitationem beatae consectetur velit ut dolorum debitis
-				voluptatem, minima necessitatibus commodi atque et, corporis
-				doloremque repellat quos molestias laudantium eligendi rerum
-				vero. Est ea consectetur vel obcaecati hic? Laborum, dolores.
-				Doloremque magni culpa nam placeat impedit dignissimos
-				voluptatem at saepe repellat praesentium pariatur, hic quam
-				architecto nulla illum consectetur assumenda aliquam iure rem
-				modi magnam corrupti. Perferendis dicta neque provident, dolorum
-				blanditiis architecto possimus fugiat iste vero expedita ut
-				voluptas molestias tenetur natus. Pariatur nobis dolorum ut,
-				repudiandae accusamus nihil quam amet expedita dolorem corporis
-				dolore minus eius magni quia?
-			</p>
-			<img src="./img/Background.jpeg" alt="" />
+		<section id="servicios" class="services">
+			<h2>Servicios</h2>
 		</section>
-		<section id="contact" class="slide">
-			<h2>Sección 4</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-				iure exercitationem beatae consectetur velit ut dolorum debitis
-				voluptatem, minima necessitatibus commodi atque et, corporis
-				doloremque repellat quos molestias laudantium eligendi rerum
-				vero. Est ea consectetur vel obcaecati hic? Laborum, dolores.
-				Doloremque magni culpa nam placeat impedit dignissimos
-				voluptatem at saepe repellat praesentium pariatur, hic quam
-				architecto nulla illum consectetur assumenda aliquam iure rem
-				modi magnam corrupti. Perferendis dicta neque provident, dolorum
-				blanditiis architecto possimus fugiat iste vero expedita ut
-				voluptas molestias tenetur natus. Pariatur nobis dolorum ut,
-				repudiandae accusamus nihil quam amet expedita dolorem corporis
-				dolore minus eius magni quia?
-			</p>
-			<img src="./img/Background.jpeg" alt="" />
+		<section id="portafolio" class="portfolio">
+			<h2>Trabajos</h2>
 		</section>
+		<section id="testimonio" class="testimonials">
+			<h2>Testimonios</h2>
+		</section>
+		<section id="contacto" class="contact">
+			<h2>Contacto</h2>
+		</section>
+		<footer class="footer">
+			<small>Sitio diseñado por <a href="https://github.com/Kapelu" target="_blank" rel="noopener">@Kapelu</a></small>
+		</footer>
 	</body>
 </html>

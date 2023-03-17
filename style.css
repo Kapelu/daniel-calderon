@@ -1,0 +1,139 @@
+/*$ ********** Variables de colores y fuente ********** */
+:root {
+	/*# Colores */
+	--first-color: #3b8686;
+	--first-alpha-color: rgba(59, 134, 134, 0.75);
+	--second-color: #79bd9a;
+	--second-alpha-color: rgba(121, 189, 154, 0.75);
+	--third-color: #a8dba8;
+	--third-alpha-color: rgba(168, 219, 168, 0.75);
+	--white-color: #fff;
+	--gray-light-color: #f3f3f3;
+	--gray-color: #ccc;
+	--gray-dark-color: #666;
+	--black-color: #000;
+	--link-color: #509ee3;
+	--title-color: #333;
+	--text-color: #222;
+	--white-alpha-color: rgba(255, 255, 255, 0.5);
+	--black-alpha-color: rgba(0, 0, 0, 0.5);
+	/*# Fuente */
+	--font: 'Gentium Book Plus', serif, sans-serif;
+
+	--max-width: 1200px;
+	--header-height: 4rem;
+}
+
+/*$ ********** Scrollbar ********** */
+
+/* 
+::-webkit-scrollbar {
+    width: 0px;
+} 
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+ */
+
+/*$ ********** Reseteo Tank you Paul Irish ********** */
+
+html {
+	box-sizing: border-box;
+	font-family: var(--font);
+	font-size: 16px;
+	scroll-behavior: smooth; /*! Le da el efecto de transición a la pagina */
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0; /*! Resetea a 0 los margenes de la página */
+	overflow-x: hidden; /*! Evita la barra de desplazamiento horizontal */
+	color: var(--text-color);
+}
+
+
+a {
+	color: var(--link-color);        /*! Establezco el color de los link */
+	transition: all 0.5s ease-out;   /*! con una transición de 0.5 seg. */
+}
+
+a:hover {
+	opacity: 0.75;   /*! A los link en su estado hover se le da una opacidad de .75 */
+}
+
+h1 {
+	margin: 0;
+	font-size: 2rem;
+}
+
+h2 {
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+h3 {
+	margin: 0;
+	font-size: 1.25rem;
+}
+
+h4 {
+	margin: 0;
+	font-size: 1rem;
+}
+
+h5 {
+	margin: 0;
+	font-size: 0.85rem;
+}
+
+h6 {
+	margin: 0;
+	font-size: 0.7rem;
+}
+
+img {
+	max-width: 100%;   /*! Este hack permite que las imagenes */
+	height: auto;      /*! sean totalmente responsivas        */
+}
+
+p {
+	line-height: 1.6;   /*! Establezco un espacion entre lineas de 1.6 */
+}
+
+/*$ ********** Componentes ********** */
+
+
+/*$ ********** Utilities ********** */
+
+.box-shadow-1 {
+	box-shadow: 0.25rem 0.25rem 1rem #00000040;
+}
+
+.container{
+	margin-left: auto;    /*! centra el contenido a la izquierda */
+	margin-right: auto;   /*! centra el contenido a la derecha */
+	max-width: var(--max-width);   /*! indica el maximo ancho de la pantalla */
+}
+
+.none{
+	display:none;
+}
+
+/*$ ********** Estilos del Sitio ********** */
+
+.header{   /*! Se posiciona la cabecera abajo a la izquierda para la parte responsiva */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;
+	height: var(--header-height);
+}
