@@ -48,10 +48,7 @@
 					class="float-right shape-1"
 				/>
 				<p class="me">
-					Soy un desarrollador web autodidacta, durante los ultimos 3
-					años he dedicado gran parte de mi tiempo a adquirir
-					habilidades y conocimientos en el campo del desarrollo de
-					software.
+					
 				</p>
 				<br />
 				<p class="me">
@@ -63,19 +60,11 @@
 				</p>
 				<br />
 				<p class="me">
-					Soy una persona dedicada y comprometida con mi trabajo, y
-					estoy dispuesto a aprender y adquirir nuevos conocimientos
-					para mejorar mis habilidades como programador. Me gusta
-					enfrentar nuevos desafíos y encontrar soluciones creativas a
-					los problemas que se presentan.
+					
 				</p>
 				<br />
 				<p class="me">
-					Estoy emocionado de tener la oportunidad de unirme a un
-					equipo y contribuir al crecimiento de una empresa. Creo que
-					esta va a ser una oportunidad ideal para seguir creciendo y
-					aprendiendo, y estoy dispuesto a trabajar arduamente para
-					alcanzar los objetivos de la empresa.
+					
 				</p>
 				<br />
 				<p class="me">
@@ -90,11 +79,11 @@
 				</div>
 				<div>
 					<h3>COMUNICACIÓN</h3>
-					<p>Comunicación de forma asertiva y apropiada, esencial para el trabajo en equipo.</p>
+					<p>Comunicación d</p>
 				</div>
 				<div>
 					<h3>AUTOMOTIVACIÓN</h3>
-					<p>Aprendizaje constante e independiente, lo considero clave para el crecimiento personal y profesional.</p>
+					<p></p>
 				</div>
 				<div>
 					<h3>GESTIÓN</h3>
