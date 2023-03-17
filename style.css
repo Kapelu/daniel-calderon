@@ -134,7 +134,7 @@ p {
 	background-color: var(--second-color);
 	opacity: 0;
 	pointer-events: none;   
-	transition: opacity .5 ease;
+	transition: opacity 0.5s ease;
 }
 
 .menu.is-active{
