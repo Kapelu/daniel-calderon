@@ -15,16 +15,16 @@
     background: #6060bac8;
 	background: linear-gradient(180deg, #6060bac8 0% #35335f 62%);
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	scroll-margin-top: 3rem;
 }
 
 .about-me {
-    border: .1rem solid #643b80a2;
+    /* border: .1rem solid #643b80a2; */
     border-radius: 10%;
-	padding: 1rem;
+	padding: 2.5rem;
 	margin: 0 auto;
 	max-width: 800px;
 }
@@ -37,12 +37,13 @@
 .me{
     font-family: var(--font-profesion);
     text-align: left;
-    color: #615e5e;
+    font-size: 1.2rem;
+    color: #4b4545;
 }
 
 .about-me img {
     border-radius: 50%;
-    border: 1px dotted #643b80a2;
+    /* border: 1px dotted #643b80a2; */
 	width: 300px;
 	height: 300px;
 	object-fit: cover;
