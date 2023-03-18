@@ -269,7 +269,7 @@ progress::-moz-progress-value {
 }
 
 .section {
-	padding: 2rem 2rem;
+	padding: 2rem 1.5rem;
 }
 
 .text-center {
