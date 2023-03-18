@@ -26,10 +26,10 @@
 
 /*$ ********** Scrollbar ********** */
 
-/* 
 ::-webkit-scrollbar {
-    width: 0px;
+	width: 0px;
 } 
+/* 
 ::-webkit-scrollbar-track {
     background: #ffffff;
 }
