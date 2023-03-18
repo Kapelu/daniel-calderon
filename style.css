@@ -355,6 +355,10 @@ progress::-moz-progress-value {
 	text-align: center;
 }
 
+.service-card h3 {
+	color: var(--title-color);
+}
+
 .service-card svg {
 	margin-bottom: 1.25rem;
 	fill: var(--first-color);
@@ -364,6 +368,16 @@ progress::-moz-progress-value {
 
 /*# ********** Versión Tablet ********** */
 @media screen and (min-width: 768px) {
+	.services > .container {
+		display: grid;
+		grid-template-columns: repeat(2, 45%);
+		justify-content: space-between;
+		align-content: center;
+	}
+
+	.services .section-title {
+		grid-column: span 2;
+	}
 }
 
 /*# ********** Versión Desktop ********** */
@@ -380,5 +394,13 @@ progress::-moz-progress-value {
 		top: 0;
 		padding: 0.5rem;
 		height: calc(--header-height) - 0.5rem;
+	}
+
+	.services > .container {
+		grid-template-columns: repeat(3, 30%);
+	}
+
+	.services .section-title {
+		grid-column: span 3;
 	}
 }
