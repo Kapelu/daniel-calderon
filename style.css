@@ -259,21 +259,55 @@ progress::-moz-progress-value {
 	max-width: var(--max-width); /*! indica el maximo ancho de la pantalla */
 }
 
-.none {
-	display: none;
-}
-
-.gray-scale{
+.gray-scale {
 	filter: grayscale(1);
 	border-radius: 50%;
 }
 
+.none {
+	display: none;
+}
 
+.section {
+	padding: 2rem 2rem;
+}
 
+.text-center {
+	text-align: center;
+}
 
+.text-left {
+	text-align: left;
+}
 
+.text-right {
+	text-align: right;
+}
+
+@media screen and (min-width: 1024px) {
+	.full-lg-screen {
+		width: 100%;
+		min-height: 100vh;
+	}
+
+	.text-lg-center {
+		text-align: center;
+	}
+
+	.text-lg-left {
+		text-align: left;
+	}
+
+	.text-lg-right {
+		text-align: right;
+	}
+}
 
 /*$ ********** Estilos del Sitio ********** */
+
+.about > article {
+	margin-bottom: 2rem;
+}
 
 .header {
 	/*! Se posiciona la cabecera abajo a la izquierda para la parte responsiva */
@@ -309,6 +343,13 @@ progress::-moz-progress-value {
 
 /*# ********** Versión Desktop ********** */
 @media screen and (min-width: 1024px) {
+	.about {
+		display: grid;
+		grid-template-columns: repeat(3, 30%);
+		justify-content: space-between;
+		align-content: center;
+	}
+
 	.header {
 		position: sticky;
 		top: 0;
