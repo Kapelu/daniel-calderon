@@ -179,6 +179,47 @@ p {
 	background-color: var(--first-color);
 }
 
+/*$ ********** Modal ********** */
+
+.modal {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--black-alpha-color);
+	opacity: 0;
+	pointer-events: none;
+	transition: all 1s;
+}
+
+.modal-content {
+	position: relative;
+}
+
+.modal-close {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+.img-modal{
+	border-radius: 5%;
+}
+.modal-close svg {
+	width: 3rem;
+	height: 3rem;
+	fill: var(--first-color);
+}
+
+.modal[id|='trabajo']:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
 @media screen and (min-width: 1024px) {
 	.menu-btn {
 		display: none;
@@ -477,6 +518,14 @@ progress::-moz-progress-value {
 		top: 0;
 		padding: 0.5rem;
 		height: calc(--header-height) - 0.5rem;
+	}
+
+	.portfolio > .container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.portfolio .section-title {
+		grid-column: span 3;
 	}
 
 	.services > .container {
