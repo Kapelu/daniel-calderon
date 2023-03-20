@@ -44,7 +44,7 @@ html {
 	box-sizing: border-box;
 	font-family: var(--font);
 	font-size: 16px;
-	scroll-behavior: smooth; /*! Le da el efecto de transición a la pagina */
+	scroll-behavior: smooth;
 }
 
 *,
@@ -54,18 +54,18 @@ html {
 }
 
 body {
-	margin: 0; /*! Resetea a 0 los margenes de la página */
-	overflow-x: hidden; /*! Evita la barra de desplazamiento horizontal */
+	margin: 0; 
+	overflow-x: hidden; 
 	color: var(--text-color);
 }
 
 a {
-	color: var(--link-color); /*! Establezco el color de los link */
-	transition: all 0.5s ease-out; /*! con una transición de 0.5 seg. */
+	color: var(--link-color); 
+	transition: all 0.5s ease-out; 
 }
 
 a:hover {
-	opacity: 0.75; /*! A los link en su estado hover se le da una opacidad de .75 */
+	opacity: 0.75;
 }
 
 h1 {
@@ -99,15 +99,15 @@ h6 {
 }
 
 img {
-	max-width: 100%; /*! Este hack permite que las imagenes */
-	height: auto; /*! sean totalmente responsivas        */
+	max-width: 100%; 
+	height: auto;
 }
 
 p {
-	line-height: 1.6; /*! Establezco un espacion entre lineas de 1.6 */
+	line-height: 1.6; 
 }
 
-/*$# ********** Componentes ( Son componentes que se pueden reutilizar en otra pagina ) ********** */
+/*$# ********** Componentes ********** */
 
 /*$ ********** Formulario de Contacto ********** */
 .contact-form {
@@ -384,9 +384,9 @@ progress::-moz-progress-value {
 	background-color: var(--first-color);
 }
 .container {
-	margin-left: auto; /*! centra el contenido a la izquierda */
-	margin-right: auto; /*! centra el contenido a la derecha */
-	max-width: var(--max-width); /*! indica el maximo ancho de la pantalla */
+	margin-left: auto; 
+	margin-right: auto; 
+	max-width: var(--max-width); 
 }
 
 .gray-scale {
@@ -479,7 +479,6 @@ progress::-moz-progress-value {
 }
 
 .header {
-	/*! Se posiciona la cabecera abajo a la izquierda para la parte responsiva */
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -491,7 +490,6 @@ progress::-moz-progress-value {
 }
 
 .header > .container {
-	/*! contenedor que es hijo directo del header */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
