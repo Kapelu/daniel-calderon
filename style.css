@@ -642,7 +642,7 @@ progress::-moz-progress-value {
 	}
 
 	.contact-cards {
-		grid-template-columns: repeat(3, 24%); /*$ cambiar a 4 al agregar telefono */
+		grid-template-columns: repeat(3, 24%); /*$ cambiar 3 a 4 al agregar telefono */
 	}
 
 	.footer {
