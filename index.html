@@ -207,8 +207,14 @@
 					alt="Daniel Calderon"
 				/>
 				<br /><br /><br />
-				<aside class="text-center" style="font-size: 1.5rem; color: #9067ffd2;">
-					<p>“No soy un gran programador. Solo soy un buen programador con excelentes hábitos”</p>
+				<aside
+					class="text-center"
+					style="font-size: 1.5rem; color: #9067ffd2"
+				>
+					<!-- <p>
+						“No soy un gran programador. Solo soy un buen
+						programador con excelentes hábitos”
+					</p> -->
 				</aside>
 				<!--  
 				$ AGENDAR REUNION A TRAVES DE CALENDLY
@@ -409,6 +415,23 @@
 			<div class="container">
 				<h2 class="section-title">Mis Trabajos</h2>
 
+				<a href="#trabajo-markdown-to-html" class="portfolio-card">
+					<img
+						src="./assets/portfolio9-Markdown-HTML.png"
+						alt="App pokemon"
+					/>
+					<aside class="portfolio-card-info">
+						<div>
+							<h3>Markdown to HTML</h3>
+							<p>
+								Aplicación usando showdownjs para convertir
+								archivos markdown en html.
+							</p>
+
+							<p>Los datos son obtenidos a traves de fecth</p>
+						</div>
+					</aside>
+				</a>
 				<a href="#trabajo-app-pokemon" class="portfolio-card">
 					<img
 						src="./assets/portfolio7-pokemon.png"
@@ -419,41 +442,26 @@
 							<h3>App Pokémon</h3>
 							<p>
 								Aplicación de pokémon que muestra 100 pokémones
-								y algunas de sus caracteristicas. 
-							<p> Los datos son obtenidos desde la 
-								API: https://pokeapi.co/
+								y algunas de sus caracteristicas.
 							</p>
+
+							<p>
+								Los datos son obtenidos desde la API:
+								https://pokeapi.co/
 							</p>
 						</div>
 					</aside>
 				</a>
 				<a href="#trabajo-app-notas" class="portfolio-card">
-					<img
-						src="./assets/portfolio8-notas.png"
-						alt="App Notas"
-					/>
+					<img src="./assets/portfolio8-notas.png" alt="App Notas" />
 					<aside class="portfolio-card-info">
 						<div>
 							<h3>App Notas</h3>
 							<p>
-								Aplicación de notas, que usa localStorage, para mantener 
-								las notas siepre cargadas, hasta que el usuario las borre
-								o elimine la memoria del localStorage
-							</p>
-						</div>
-					</aside>
-				</a>
-				<a href="#trabajo-app-calculadora" class="portfolio-card">
-					<img
-						src="./assets/portfolio6-app-calculadora.png"
-						alt="App Calculadora"
-					/>
-					<aside class="portfolio-card-info">
-						<div>
-							<h3>App Calculadora</h3>
-							<p>
-								Sencilla calculadora con la particularidad de
-								que solo usa una sola linea de JavaScript
+								Aplicación de notas, que usa localStorage, para
+								mantener las notas siepre cargadas, hasta que el
+								usuario las borre o elimine la memoria del
+								localStorage
 							</p>
 						</div>
 					</aside>
@@ -505,48 +513,68 @@
 						</div>
 					</aside>
 				</a>
-
-				<a href="#trabajo-challenge-react" class="portfolio-card">
-					<img
-						src="./assets/portfolio2-challenge-react.png"
-						alt="Challenge React"
-					/>
-					<aside class="portfolio-card-info">
-						<div>
-							<h3>CHALLENGE REACT</h3>
-							<p>
-								Son algunas de las preguntas más frecuentes en
-								las entrevistas técnicas de React. Desde lo más
-								básico a lo avanzado.
-							</p>
-						</div>
-					</aside>
-				</a>
-				
-				<a href="#trabajo-challenge-javascript" class="portfolio-card">
-					<img
-						src="./assets/portfolio1-challenge-javascript.png"
-						alt="Challenge Javascript"
-					/>
-					<aside class="portfolio-card-info">
-						<div>
-							<h3>CHALLENGE JAVASCRIPT</h3>
-							<p>
-								Son preguntas de opciones múltiples, desde lo
-								más básico a lo avanzado. Las respuestas se
-								encuentran en las secciones contraídas debajo de
-								las preguntas, simplemente haz clic en ellas
-								para expandirlas. Está echo en markdown, aunque
-								la idea es pasarla pronto a html y css.
-							</p>
-						</div>
-					</aside>
-				</a>
 			</div>
 		</section>
 		<!-- 
 		$ **********************   VENTANAS MODAL   **********************
 		-->
+		<article class="modal" id="trabajo-markdown-to-html">
+			<div class="modal-content">
+				<a href="#cerrar" class="modal-close">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+					>
+						<path
+							d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+						/>
+					</svg>
+				</a>
+				<article class="portfolio-modal">
+					<img
+						class="img-modal"
+						src="./assets/portfolio9-Markdown-HTML.png"
+						alt="App Calculadora"
+					/>
+					<div class="portfolio-info">
+						<h3>Markdown to HTML</h3>
+						<p>
+							Aplicación usando showdownjs para convertir archivos
+							markdown en html.
+						</p>
+
+						<p>Los datos son obtenidos a traves de fecth</p>
+
+						<aside class="portfolio-details">
+							<small><b>FECHA:</b></small>
+							<small>05/06/2023</small>
+							<small><b>TIPO:</b></small>
+							<small>HTML, CSS y JavaScript</small>
+							<small><b>ENLACE:</b></small>
+							<small
+								><a
+									href="https://kapelu.github.io/markdown-to-html/"
+									target="_blank"
+									rel="noopener"
+									>https://kapelu.github.io</a
+								></small
+							>
+							<small><b>REPOSITORIO:</b></small>
+							<small
+								><a
+									href="https://github.com/Kapelu/markdown-to-html"
+									target="_blank"
+									rel="noopener"
+									>https://github.com/Kapelu</a
+								></small
+							>
+						</aside>
+					</div>
+				</article>
+			</div>
+		</article>
 		<article class="modal" id="trabajo-app-pokemon">
 			<div class="modal-content">
 				<a href="#cerrar" class="modal-close">
@@ -570,12 +598,15 @@
 					<div class="portfolio-info">
 						<h3>App Pokémon</h3>
 						<p>
-							Aplicación de pokémon que muestra 100 pokémones
-								y algunas de sus caracteristicas. 
-							<p> Los datos son obtenidos desde la 
-								API: https://pokeapi.co/
-							</p>
+							Aplicación de pokémon que muestra 100 pokémones y
+							algunas de sus caracteristicas.
 						</p>
+
+						<p>
+							Los datos son obtenidos desde la API:
+							https://pokeapi.co/
+						</p>
+
 						<aside class="portfolio-details">
 							<small><b>FECHA:</b></small>
 							<small>05/05/2023</small>
@@ -583,8 +614,13 @@
 							<small>HTML, CSS y JavaScript</small>
 							<small><b>ENLACE:</b></small>
 							<small
-								><a href="https://kapelu.github.io/app-pokemon/" target="_blank" rel="noopener">https://kapelu.github.io</a
-							></small>
+								><a
+									href="https://kapelu.github.io/app-pokemon/"
+									target="_blank"
+									rel="noopener"
+									>https://kapelu.github.io</a
+								></small
+							>
 							<small><b>REPOSITORIO:</b></small>
 							<small
 								><a
@@ -623,9 +659,10 @@
 					<div class="portfolio-info">
 						<h3>App Notas</h3>
 						<p>
-							Aplicación de notas, que usa localStorage, para mantener 
-							las notas siepre cargadas, hasta que el usuario las borre
-							o elimine la memoria del localStorage.
+							Aplicación de notas, que usa localStorage, para
+							mantener las notas siepre cargadas, hasta que el
+							usuario las borre o elimine la memoria del
+							localStorage.
 						</p>
 						<aside class="portfolio-details">
 							<small><b>FECHA:</b></small>
@@ -634,62 +671,17 @@
 							<small>HTML, CSS y JavaScript</small>
 							<small><b>ENLACE:</b></small>
 							<small
-								><a href="https://kapelu.github.io/app-notas/" target="_blank" rel="noopener">https://kapelu.github.io</a
-							></small>
+								><a
+									href="https://kapelu.github.io/app-notas/"
+									target="_blank"
+									rel="noopener"
+									>https://kapelu.github.io</a
+								></small
+							>
 							<small><b>REPOSITORIO:</b></small>
 							<small
 								><a
 									href="https://github.com/Kapelu/app-notas"
-									target="_blank"
-									rel="noopener"
-									>https://github.com/Kapelu</a
-								></small
-							>
-						</aside>
-					</div>
-				</article>
-			</div>
-		</article>
-
-		<article class="modal" id="trabajo-app-calculadora">
-			<div class="modal-content">
-				<a href="#cerrar" class="modal-close">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-					>
-						<path
-							d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
-						/>
-					</svg>
-				</a>
-				<article class="portfolio-modal">
-					<img
-						class="img-modal"
-						src="./assets/portfolio6-app-calculadora.png"
-						alt="App Calculadora"
-					/>
-					<div class="portfolio-info">
-						<h3>App Calculadora</h3>
-						<p>
-							Sencilla calculadora con la particularidad de que
-							solo usa una sola linea de JavaScript.
-						</p>
-						<aside class="portfolio-details">
-							<small><b>FECHA:</b></small>
-							<small>11/04/2023</small>
-							<small><b>TIPO:</b></small>
-							<small>HTML, CSS y JavaScript</small>
-							<small><b>ENLACE:</b></small>
-							<small
-								><a href="https://kapelu.github.io/app-calculadora/" target="_blank" rel="noopener">https://kapelu.github.io</a
-							></small>
-							<small><b>REPOSITORIO:</b></small>
-							<small
-								><a
-									href="https://github.com/Kapelu/app-calculadora"
 									target="_blank"
 									rel="noopener"
 									>https://github.com/Kapelu</a
@@ -850,108 +842,6 @@
 							<small
 								><a
 									href="https://github.com/Kapelu/primera-extension-chrome"
-									target="_blank"
-									rel="noopener"
-									>https://github.com/Kapelu</a
-								></small
-							>
-						</aside>
-					</div>
-				</article>
-			</div>
-		</article>
-
-		<article class="modal" id="trabajo-challenge-react">
-			<div class="modal-content">
-				<a href="#cerrar" class="modal-close">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-					>
-						<path
-							d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
-						/>
-					</svg>
-				</a>
-				<article class="portfolio-modal">
-					<img
-						class="img-modal"
-						src="./assets/portfolio2-challenge-react.png"
-						alt="Challenge-React"
-					/>
-					<div class="portfolio-info">
-						<h3>CHALLENGE REACT</h3>
-						<p>
-							Son algunas de las preguntas más frecuentes en las
-							entrevistas técnicas de React. Desde lo más básico a
-							lo avanzado.
-						</p>
-						<aside class="portfolio-details">
-							<!-- 
-							<small><b>CLIENTE:</b></small>
-							<small>Nombre del Cliente</small>
-							-->
-							<small><b>FECHA:</b></small>
-							<small>23/01/2023</small>
-							<small><b>TIPO:</b></small>
-							<small>MARKDOWN y HTML</small>
-							<small><b>REPOSITORIO:</b></small>
-							<small
-								><a
-									href="https://github.com/Kapelu/Challenge-React"
-									target="_blank"
-									rel="noopener"
-									>https://github.com/Kapelu</a
-								></small
-							>
-						</aside>
-					</div>
-				</article>
-			</div>
-		</article>
-
-		<article class="modal" id="trabajo-challenge-javascript">
-			<div class="modal-content">
-				<a href="#cerrar" class="modal-close">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-					>
-						<path
-							d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
-						/>
-					</svg>
-				</a>
-				<article class="portfolio-modal">
-					<img
-						class="img-modal"
-						src="./assets/portfolio1-challenge-javascript.png"
-						alt="Challenge JavaScript"
-					/>
-					<div class="portfolio-info">
-						<h3>CHALLENGE JAVASCRIPT</h3>
-						<p>
-							Son preguntas de opciones múltiples, desde lo más
-							básico a lo avanzado. Está echo en markdown, aunque
-							la idea es pasarla pronto a html y css.
-						</p>
-						<aside class="portfolio-details">
-							<!-- 
-							<small><b>CLIENTE:</b></small>
-							<small>Nombre del Cliente</small>
-							-->
-							<small><b>FECHA:</b></small>
-							<small>05/10/2022</small>
-							<small><b>TIPO:</b></small>
-							<small>MARKDOWN y HTML</small>
-							<small><b>REPOSITORIO:</b></small>
-							<small
-								><a
-									href="https://github.com/Kapelu/Challenge-JavaScript"
 									target="_blank"
 									rel="noopener"
 									>https://github.com/Kapelu</a
