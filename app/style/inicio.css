@@ -1,0 +1,52 @@
+.inicio {
+	background-image: url('/hero-image.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	filter: brightness(80%);
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+
+.inicio-content {
+	font-family: var(--font-family);
+	font-style: italic;
+	color: var(--white-color);
+	& .inicio-title {
+		font-size: 12vw;
+		color: var(--second-color);
+	}
+	& .inicio-subtitle {
+		font-size: 12vw;
+		color: var(--second-color);
+	}
+	& .text {
+		font-size: 4vw;
+	}
+	& .inicio-logo {
+		width: 10rem;
+		border-radius: 50%;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.inicio-content {
+		& .inicio-title {
+			font-size: 5vw;
+		}
+		& .inicio-subtitle {
+			font-size: 6vw;
+		}
+		& .text {
+			font-size: 1.5vw;
+		}
+		& .inicio-logo {
+			width: 20rem;
+			border-radius: 50%;
+		}
+	}
+}
