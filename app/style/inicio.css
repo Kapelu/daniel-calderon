@@ -1,52 +1,46 @@
-.inicio {
+.inicio-hero-image {
 	background-image: url('/hero-image.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	filter: brightness(80%);
+}
+
+.inicio-hero-image-opacity {
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
-	justify-content: flex-start;
+    flex-direction: column;
 	align-items: center;
 	text-align: center;
+	background-color: var(--black-alpha-color);
 }
 
-.inicio-content {
-	font-family: var(--font-family);
-	font-style: italic;
+.inicio-title{
+    padding: 2rem 0 0 0;
+    font-size: 10vw;
 	color: var(--white-color);
-	& .inicio-title {
-		font-size: 12vw;
-		color: var(--second-color);
-	}
-	& .inicio-subtitle {
-		font-size: 12vw;
-		color: var(--second-color);
-	}
-	& .text {
-		font-size: 4vw;
-	}
-	& .inicio-logo {
-		width: 10rem;
-		border-radius: 50%;
-	}
 }
+
+.inicio-subtitle{
+    font-size: 4vw;
+	color: var(--white-color);
+}
+
+
 @media screen and (min-width: 1024px) {
 	.inicio-content {
-		& .inicio-title {
-			font-size: 5vw;
+		& .inicio-welcome {
+			font-size: 3vw;
+			color: var(--second-color);
 		}
-		& .inicio-subtitle {
-			font-size: 6vw;
+		& .inicio-name {
+			font-size: 4vw;
+			color: var(--second-color);
 		}
-		& .text {
-			font-size: 1.5vw;
-		}
-		& .inicio-logo {
-			width: 20rem;
-			border-radius: 50%;
+		& .inicio-profesion {
+			font-size: 2vw;
+			color: var(--second-color);
 		}
 	}
 }

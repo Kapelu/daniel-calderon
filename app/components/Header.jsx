@@ -1,5 +1,5 @@
 'use client'
-import './header.css'
+import '@/app/style/Header.css'
 import React, {useState, useEffect} from 'react'
 import menu from '@/app/json/headerMenu.json'
 import Link from 'next/link'

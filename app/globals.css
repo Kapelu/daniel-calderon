@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Roboto+Slab:wght@300&display=swap');
 /*$ ********** Variables de colores y fuente ********** */
 :root {
 	/*# Colores */
-	--first-color: #3b8686;
-	--first-alpha-color: rgba(59, 134, 134, 0.75);
-	--second-color: #79bd9a;
-	--second-alpha-color: rgba(121, 189, 154, 0.75);
-	--third-color: #a8dba8;
-	--third-alpha-color: rgba(168, 219, 168, 0.75);
+	--first-color: #ECB365;
+	--first-alpha-color: #ECB36575;
+	--second-color: #028090;
+	--second-alpha-color: #02809075;
+	--third-color: #00A896;
+	--third-alpha-color: #00A89675;
 	--white-color: #fff;
 	--gray-light-color: #f3f3f3;
 	--gray-color: #ccc;
@@ -18,7 +19,9 @@
 	--white-alpha-color: rgba(255, 255, 255, 0.5);
 	--black-alpha-color: rgba(0, 0, 0, 0.5);
 	/*# Fuente */
-	--font: 'Gentium Book Plus', serif, sans-serif;
+	--raleway: 'Raleway', sans-serif;
+    --roboto-slab:'Roboto Slab', serif;
+
 
 	--max-width: 1200px;
 	--header-height: 4rem;
@@ -42,7 +45,7 @@
 
 html {
 	box-sizing: border-box;
-	font-family: var(--font);
+	font-family: var(--raleway);
 	font-size: 16px;
 	scroll-behavior: smooth;
 }
@@ -108,6 +111,10 @@ p {
 }
 
 /*$ ********** Utilities ********** */
+.foto-perfil{
+    border-radius: 50%;
+    width: auto;
+}
 
 .bg-gray-light {
 	background-color: var(--gray-light-color);
@@ -136,7 +143,6 @@ p {
 
 .gray-scale {
 	filter: grayscale(1);
-	border-radius: 50%;
 }
 
 .none {
