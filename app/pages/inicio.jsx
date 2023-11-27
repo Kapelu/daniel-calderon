@@ -37,6 +37,7 @@ export default function Inicio() {
 						desafíos y encontrar soluciones creativas a los
 						problemas que se presentan.
 					</p>
+                    
 					<p>
 						Estoy emocionado de tener la oportunidad de unirme a un
 						equipo y contribuir al crecimiento de una empresa. Creo
