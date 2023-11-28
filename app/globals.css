@@ -132,8 +132,8 @@ p {
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
-	color: var(--white-color);
-	background-color: var(--first-color);
+	color: var(--second-color);
+	background-color: var(--first-alpha-color);
 }
 .container {
 	margin-left: auto; 
