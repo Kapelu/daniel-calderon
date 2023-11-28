@@ -1,30 +1,37 @@
 .inicio-hero-image {
-	background-image: url('/hero-image.webp');
+    background-color: #31004de8;
+	background-image: url('/hero-image.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	color: var(--first-alpha-color);
 }
 
 .inicio-hero-image-opacity {
 	width: 100%;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	background-color: var(--black-alpha-color);
-    color: var(--white-color);
 }
 
 .inicio-title {
+    padding: 2rem 0 1rem;
 	font-size: 10vw;
+    color: var(--second-alpha-color);
 }
 
 .inicio-subtitle {
-	font-size: 4vw;
+    font-size: 4vw;
+    color: var(--second-color);
 }
-
-
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
 @media screen and (min-width: 768px) {
 	.services > .container {
 		display: grid;
@@ -40,6 +47,7 @@
 
 @media screen and (min-width: 1024px) {
 	.inicio-title {
+        padding: 4.5rem 0 1rem;
 		font-size: 4vw;
 	}
 
@@ -47,11 +55,7 @@
 		font-size: 1.5vw;
 	}
 
-	.columna {
-		flex-basis: 100%;
-	}
-
-	.services > .container {
+    .services > .container {
 		grid-template-columns: repeat(3, 30%);
 	}
 

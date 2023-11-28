@@ -1,0 +1,22 @@
+<>
+			<article className='inicio-hero-image services'>
+				<section
+					className='inicio-hero-image-opacity'
+					style={{padding: ' 2rem 1rem 1rem'}}
+				>
+					
+				</section>
+				<section className=' inicio-hero-image-opacity'>
+					<aside className=''>
+						<article className='section text-left'>
+							<h2 className='container section-title'>
+								¿ Quien soy ?
+							</h2>
+							
+						</article>
+						<article></article>
+					</aside>
+				</section>
+				<section className='inicio-hero-image-opacity'></section>
+			</article>
+		</>
