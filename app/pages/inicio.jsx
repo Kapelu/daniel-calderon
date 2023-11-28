@@ -20,34 +20,17 @@ export default function Inicio() {
 					/>
 				</section>
 				<section className='services'>
-					<div className='container'>
+					<div className='container about'>
 						<article className='section'>
 							<h2 className='section-title'>Quién soy</h2>
 							<p className='text-left text-lg-left'>
-								Soy un desarrollador <i>web</i> autodidacta,
-								durante los ultimos 3 años he dedicado gran
-								parte de mi tiempo a adquirir habilidades y
-								conocimientos en el campo del desarrollo{' '}
-								<i>web</i>.
+								Soy un desarrollador <i>web</i> autodidacta, durante los ultimos 3 años he dedicado gran parte de mi tiempo a adquirir habilidades y conocimientos en el campo del desarrollo{' '}<i>web</i>.
 								<br />
 								<br />
-								Una persona dedicada y comprometida con mi
-								trabajo, y estoy dispuesto a aprender y adquirir
-								nuevos conocimientos para mejorar mis
-								habilidades como programador. Estoy más
-								orientado al <i>Backend</i>, pero también hago{' '}
-								<i>Frontend</i>. Me gusta enfrentar nuevos
-								desafíos y encontrar soluciones creativas a los
-								problemas que se presentan.
+								Una persona dedicada y comprometida con mi trabajo, y estoy dispuesto a aprender y adquirir nuevos conocimientos para mejorar mis habilidades como programador. Estoy más orientado al <i>Frontend</i>, pero también hago{' '}. Me gusta enfrentar nuevos desafíos y encontrar soluciones creativas a los problemas que se presentan.
 								<br />
 								<br />
-								Estoy emocionado de tener la oportunidad de
-								unirme a un equipo y contribuir al crecimiento
-								de una empresa. Creo que esta va a ser una
-								oportunidad ideal para seguir creciendo y
-								aprendiendo, y estoy dispuesto a trabajar
-								arduamente para alcanzar los objetivos de la
-								empresa.
+								Estoy emocionado de tener la oportunidad de unirme a un equipo y contribuir al crecimiento de una empresa. Creo que esta va a ser una oportunidad ideal para seguir creciendo y aprendiendo, y estoy dispuesto a trabajar arduamente para alcanzar los objetivos de la empresa.
 							</p>
 						</article>
 						<article className='section'>
