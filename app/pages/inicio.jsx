@@ -3,10 +3,12 @@ import Link from 'next/link'
 import '@/app/style/inicio.css'
 
 export default function Inicio() {
+	const pdfURL = '/cv.pdf'
+
 	return (
 		<article className='inicio-hero-image'>
 			<div className='inicio-hero-image-opacity'>
-				<section>
+				<section className='section'>
 					<h1 className='inicio-title'>Daniel Calderón</h1>
 					<h5 className='inicio-subtitle'>
 						Desarrollador Full Stack
@@ -20,7 +22,7 @@ export default function Inicio() {
 					/>
 				</section>
 				<section className='services'>
-					<div className='container about'>
+					<div className='container'>
 						<article className='section'>
 							<h2 className='section-title'>Quién soy</h2>
 							<p className='text-left text-lg-left'>
@@ -36,7 +38,10 @@ export default function Inicio() {
 								nuevos conocimientos para mejorar mis
 								habilidades como programador. Estoy más
 								orientado al <i>Frontend</i>, pero también hago{' '}
-								. Me gusta enfrentar nuevos desafíos y encontrar
+								<i>Backend</i>.
+								<br />
+								<br />
+								Me gusta enfrentar nuevos desafíos y encontrar
 								soluciones creativas a los problemas que se
 								presentan.
 								<br />
@@ -106,16 +111,17 @@ export default function Inicio() {
 									max='100'
 								></progress>
 							</div>
-                            <br />
-                            <br /><br /><br /><br /><br /><br />
+							<br />
+							<br />
+							<br />
 							<Link
 								className='btn'
-								href='https://danielcalderon.vercel.app/'
+								href={pdfURL}
+								download='cv.pdf'
 								target='_blank'
 								rel='noopener noreferrer preload'
-								as='https://danielcalderon.vercel.app/'
 							>
-								Descarga mi CV
+								Descargar CV
 							</Link>
 						</article>
 						<article className='section'>

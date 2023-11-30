@@ -19,7 +19,6 @@
 }
 
 .inicio-title {
-    padding: 2rem 0 1rem;
 	font-size: 10vw;
     color: var(--second-alpha-color);
 }
@@ -71,10 +70,10 @@ progress::-moz-progress-bar {
 	text-align: center;
 } */
 
-/* .service-card h3 {
+.service-card h2 {
 	color: var(--title-color);
 }
- */
+
 .service-card svg {
 	margin-bottom: 1.25rem;
 	fill: var(--second-color);
@@ -84,7 +83,6 @@ progress::-moz-progress-bar {
 @media screen and (min-width: 768px) {
 	.services > .container {
 		display: grid;
-		/* grid-template-columns: repeat(2, 45%); */
 		justify-content: space-between;
 		align-content: center;
 	}
@@ -96,7 +94,6 @@ progress::-moz-progress-bar {
 
 @media screen and (min-width: 1024px) {
 	.inicio-title {
-        padding: 4.5rem 0 1rem;
 		font-size: 4vw;
 	}
 
