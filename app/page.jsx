@@ -4,10 +4,10 @@ import Inicio from './pages/inicio'
 export default function Home() {
 	return (
 		<>
-			<section id='inicio full-lg-screen'>
+			<section id='inicio'>
                 <Inicio />
 			</section>
-			<section id='portfolio'>
+			<section id='portafolio'  className="portfolio section">
                 <Portafolio />
             </section>
             <section id='testimonios'></section>

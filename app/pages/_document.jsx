@@ -7,7 +7,7 @@ export default function Document() {
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="Content-Type" content="text/html" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="theme-color" content="#79bd9a" />
+		{/* <meta name="theme-color" content="#79bd9a" /> */}
 		<meta
 			name="description"
 			content="Hola bienvenid@ a mi Portafolio Profesional, soy Daniel Calderon, full stack developer."

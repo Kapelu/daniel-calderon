@@ -26,6 +26,29 @@ export default function Portafolio() {
 						<div>
 							<h3>{item.titulo}</h3>
 							<p>{item.descripcion}</p>
+							<small>
+								<b>FECHA: </b>
+							</small>
+							<small>{item.fecha}</small>
+							<br />
+							<small>
+								<b>TIPO: </b>
+							</small>
+							<small>{item.tipo}</small>
+							{/* <br />
+							<small>
+								<b>ENLACE: </b>
+							</small>
+							<small>
+								<Link href={item.enlace}>{item.enlace}</Link>
+							</small>
+							<br /> */}
+							{/* <small>
+								<b>REPOSITORIO:</b>
+							</small>
+							<small>
+                            <Link href={item.repositorio}>{item.repositorio}</Link>
+							</small> */}
 						</div>
 					</aside>
 				</Link>
