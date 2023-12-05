@@ -1,8 +1,8 @@
 import portafolio from '../json/portfolio.json'
 import Link from 'next/link'
 import Image from 'next/image'
-import '../globals.css'
-import '@/app/style/Portafolio.css'
+import '@/app/globals.css'
+import '@/app/style/portafolio.css'
 
 export default function Portafolio() {
 	return (
@@ -15,14 +15,19 @@ export default function Portafolio() {
 					className='portfolio-card'
 					key={index}
 				>
-					<Image className='imagen' src={item.imagen} width={400} height={400} alt={item.titulo}>
-						<aside className='portfolio-card-info'>
-							<div>
-								<h3>{item.titulo}</h3>
-								<p>{item.descripcion}</p>
-							</div>
-						</aside>
-					</Image>
+					<Image
+						className='imagen'
+						src={item.imagen}
+						width={400}
+						height={400}
+						alt={item.titulo}
+					></Image>
+					<aside className='portfolio-card-info'>
+						<div>
+							<h3>{item.titulo}</h3>
+							<p>{item.descripcion}</p>
+						</div>
+					</aside>
 				</Link>
 			))}
 		</div>

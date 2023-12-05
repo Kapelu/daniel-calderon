@@ -1,4 +1,4 @@
-import Portafolio from './pages/Portafolio'
+import Portafolio from './pages/portafolio'
 import Inicio from './pages/inicio'
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
                 <Inicio />
 			</section>
 			<section id='portfolio'>
-                {/* <Portafolio /> */}
+                <Portafolio />
             </section>
             <section id='testimonios'></section>
             <section id='contacto'></section>
