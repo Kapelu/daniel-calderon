@@ -35,20 +35,22 @@ export default function Portafolio() {
 								<b>TIPO: </b>
 							</small>
 							<small>{item.tipo}</small>
-							{/* <br />
+							{/* 
+                            <br />
 							<small>
 								<b>ENLACE: </b>
 							</small>
 							<small>
 								<Link href={item.enlace}>{item.enlace}</Link>
 							</small>
-							<br /> */}
-							{/* <small>
+							<br />
+                            <small>
 								<b>REPOSITORIO:</b>
 							</small>
 							<small>
                             <Link href={item.repositorio}>{item.repositorio}</Link>
-							</small> */}
+							</small> 
+                            */}
 						</div>
 					</aside>
 				</Link>

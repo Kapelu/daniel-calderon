@@ -1,17 +1,19 @@
-import Portafolio from './pages/portafolio'
 import Inicio from './pages/inicio'
+import Portafolio from './pages/portafolio'
+import Contacto from './pages/contacto'
 
 export default function Home() {
 	return (
 		<>
-			<section id='inicio'>
+			<section id='inicio' className='inicio section'>
                 <Inicio />
 			</section>
 			<section id='portafolio'  className="portfolio section">
                 <Portafolio />
             </section>
-            <section id='testimonios'></section>
-            <section id='contacto'></section>
+            <section id='contacto' className='contact section'>
+                <Contacto />
+            </section>
 		</>
 	)
 }

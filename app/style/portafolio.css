@@ -23,6 +23,7 @@
 	opacity: 0;
 	pointer-events: none;
 	transition: all 0.5s ease-in-out;
+    font-weight: 900;
 }
 
 .portfolio-card:hover .portfolio-card-info {
@@ -31,7 +32,7 @@
 }
 
 .portfolio-card-info > div {
-    color: var(--second-color);
+    color: var(--white-color);
 	padding: 1rem;
 	border: thin solid var(--white-color);
 	width: 100%;

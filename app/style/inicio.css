@@ -1,4 +1,5 @@
 .inicio-title {
+    font-weight:bold;
 	font-size: 10vw;
     color: var(--second-alpha-color);
 }
@@ -69,7 +70,6 @@ progress::-moz-progress-bar {
 
 @media screen and (min-width: 1024px) {
 	.inicio-title {
-        padding-top: 2rem;
 		font-size: 4vw;
 	}
 
