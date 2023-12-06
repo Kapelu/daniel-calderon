@@ -5,7 +5,7 @@ import Contacto from './pages/contacto'
 export default function Home() {
 	return (
 		<>
-			<section id='inicio' className='inicio section'>
+			<section id='inicio' className='inicio'>
                 <Inicio />
 			</section>
 			<section id='portafolio'  className="portfolio section">

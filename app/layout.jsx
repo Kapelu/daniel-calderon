@@ -14,11 +14,9 @@ export default function RootLayout({children}) {
 	return (
 		<html lang='es'>
 			{/* className={inter.className} */}
-			<body suppressHydrationWarning={true} className='hero-image'>
-				<div className='hero-image-opacity'>
-					<Header />
-					{children}
-				</div>
+			<body suppressHydrationWarning={true}>
+				<Header />
+				{children}
 				<Footer />
 			</body>
 		</html>

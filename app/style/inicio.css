@@ -1,4 +1,9 @@
+.contain{
+    display: flex;
+    flex-direction: column;
+}
 .inicio-title {
+    margin-top: 2rem;
     font-weight:bold;
 	font-size: 10vw;
     color: var(--second-alpha-color);

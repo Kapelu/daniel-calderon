@@ -7,8 +7,8 @@ export default function Inicio() {
 	const pdfURL = '/cv.pdf'
 
 	return (
-		<article className='inicio-hero-image'>
-			<div className='inicio-hero-image-opacity'>
+		<article className='hero-image'>
+			<div className='hero-image-opacity contain'>
 				<section className='section'>
 					<h1 className='inicio-title'>Daniel Calderón</h1>
 					<h5 className='inicio-subtitle'>
