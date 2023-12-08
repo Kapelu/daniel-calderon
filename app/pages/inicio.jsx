@@ -23,9 +23,11 @@ export default function Inicio() {
 					/>
 					<br />
 					<br />
+					<br />
 					<Link className='btn' href='#contacto'>
 						Contáctame
 					</Link>
+					<br />
 					<br />
 					<br />
 				</section>
