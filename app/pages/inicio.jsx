@@ -29,7 +29,6 @@ export default function Inicio() {
 					</Link>
 					<br />
 					<br />
-					<br />
 				</section>
 				<section className='services'>
 					<div className='container'>
