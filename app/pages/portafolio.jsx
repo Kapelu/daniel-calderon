@@ -18,8 +18,8 @@ export default function Portafolio() {
 					<Image
 						className='imagen'
 						src={item.imagen}
-						width={500}
-						height={500}
+						width={400}
+						height={400}
 						alt={item.titulo}
 					></Image>
 					<aside className='portfolio-card-info'>
