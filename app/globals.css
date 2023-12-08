@@ -113,7 +113,6 @@ p {
 
 /*$ ********** Utilities ********** */
 .foto-perfil{
-    border-radius: 50%;
     filter:drop-shadow(1px 4px 15px var(--second-color))
 }
 

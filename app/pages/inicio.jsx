@@ -9,20 +9,18 @@ export default function Inicio() {
 	return (
 		<article className='hero-image'>
 			<div className='hero-image-opacity contain'>
-				<section className='section'>
+				<section>
 					<h1 className='inicio-title'>Daniel Calderón</h1>
 					<h5 className='inicio-subtitle'>
 						Desarrollador Full Stack
 					</h5>
 					<Image
 						className='foto-perfil'
-						width='150'
-						height='150'
+						width='320'
+						height='320'
 						src='/kapelu.webp'
 						alt='Daniel Calderon'
 					/>
-					<br />
-					<br />
 					<br />
 					<br />
 					<Link className='btn' href='#contacto'>
