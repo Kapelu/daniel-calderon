@@ -26,6 +26,8 @@ export default function Inicio() {
 					<Link className='btn' href='#contacto'>
 						Contáctame
 					</Link>
+					<br />
+					<br />
 				</section>
 				<section className='services'>
 					<div className='container'>
