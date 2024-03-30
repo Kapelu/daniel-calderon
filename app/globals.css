@@ -2,12 +2,12 @@
 /*$ ********** Variables de colores y fuente ********** */
 :root {
 	/*# Colores */
-	--first-color: #ECB365;
+	--first-color: #ecb365;
 	--first-alpha-color: #ecb465d0;
 	--second-color: #028090;
 	--second-alpha-color: #02809075;
-	--third-color: #00A896;
-	--third-alpha-color: #00A89675;
+	--third-color: #00a896;
+	--third-alpha-color: #00a89675;
 	--white-color: #fff;
 	--gray-light-color: #f3f3f3;
 	--gray-color: #ccc;
@@ -20,8 +20,7 @@
 	--black-alpha-color: rgba(0, 0, 0, 0.5);
 	/*# Fuente */
 	--raleway: 'Raleway', sans-serif;
-    --roboto-slab:'Roboto Slab', serif;
-
+	--roboto-slab: 'Roboto Slab', serif;
 
 	--max-width: 1200px;
 	--header-height: 4rem;
@@ -40,7 +39,6 @@
     background: #fff;
 } */
 
-
 /*$ ********** Reseteo Tank you Paul Irish ********** */
 
 html {
@@ -57,15 +55,15 @@ html {
 }
 
 body {
-	margin: 0; 
-	overflow-x: hidden; 
+	margin: 0;
+	overflow-x: hidden;
 	color: var(--text-color);
 }
 
 a {
 	color: var(--black-color);
-    text-decoration: none;
-	transition: all 0.5s ease-out; 
+	text-decoration: none;
+	transition: all 0.5s ease-out;
 }
 
 a:hover {
@@ -103,17 +101,18 @@ h6 {
 }
 
 img {
-	max-width: 100%; 
+	max-width: 100%;
 	/* height: auto; */
 }
 
 p {
-	line-height: 1.6; 
+	line-height: 1.6;
 }
 
 /*$ ********** Utilities ********** */
-.foto-perfil{
-    filter:drop-shadow(1px 4px 15px var(--second-color))
+.foto-perfil {
+	filter: drop-shadow(7px 4px 15px var(--second-color));
+	mask-image: linear-gradient(black 80%, transparent);
 }
 
 .bg-gray-light {
@@ -136,9 +135,9 @@ p {
 	background-color: var(--first-alpha-color);
 }
 .container {
-	margin-left: auto; 
-	margin-right: auto; 
-	max-width: var(--max-width); 
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--max-width);
 }
 
 .gray-scale {
@@ -196,7 +195,7 @@ p {
 
 /*$ ********** Estilos del Sitio ********** */
 .hero-image {
-    background-color: rgba(0, 59, 77, 0.91);
+	background-color: rgba(0, 59, 77, 0.91);
 	background-image: url('/hero-image.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
