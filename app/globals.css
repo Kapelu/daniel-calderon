@@ -113,6 +113,7 @@ p {
 .foto-perfil {
 	filter: drop-shadow(7px 4px 15px var(--second-color));
 	mask-image: linear-gradient(black 80%, transparent);
+    border-radius: 1.5rem
 }
 
 .bg-gray-light {
