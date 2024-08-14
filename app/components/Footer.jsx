@@ -7,10 +7,10 @@ export default function Footer() {
 			<small>
 				<Link
 					className='link'
-					href='https://danielcalderon.vercel.app/'
+					href='https://github.com/Kapelu'
 					target='_blank'
 					rel='noopener noreferrer preload'
-					as='https://danielcalderon.vercel.app/'
+					as='https://github.com/Kapelu'
 				>
 					@kapelu
 				</Link>
