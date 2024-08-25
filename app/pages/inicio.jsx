@@ -4,7 +4,7 @@ import Link from 'next/link'
 import '@/app/style/inicio.css'
 
 export default function Inicio() {
-	const pdfURL = '/cv.pdf'
+	const pdfURL = '/DanielCalderon-CV.pdf'
 
 	return (
 		<article className='hero-image'>
