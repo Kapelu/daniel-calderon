@@ -14,9 +14,9 @@ export default function Footer() {
 					rel='noopener noreferrer preload'
 					as='https://github.com/Kapelu'
 				>
-					@kapelu -
+					@kapelu{' '}
 				</Link>
-                &nbsp;2024 - {year} All Rights Reserved
+                {' '}2024 - {year} All Rights Reserved
 			</small>
 		</footer>
 	)
