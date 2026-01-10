@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import '@/app/style/Footer.css'
 
+const year = new Date().getFullYear()
+
 export default function Footer() {
 	return (
 		<footer className='footer'>
@@ -12,9 +14,9 @@ export default function Footer() {
 					rel='noopener noreferrer preload'
 					as='https://github.com/Kapelu'
 				>
-					@kapelu
+					@kapelu -
 				</Link>
-                &nbsp;- All Rights Reserved​ 
+                &nbsp;2024 - {year} All Rights Reserved​ 
 			</small>
 		</footer>
 	)
