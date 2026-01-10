@@ -16,7 +16,7 @@ export default function Footer() {
 				>
 					@kapelu -
 				</Link>
-                &nbsp;2024 - {year} All Rights Reserved​ 
+                &nbsp;2024 - {year} All Rights Reserved
 			</small>
 		</footer>
 	)
