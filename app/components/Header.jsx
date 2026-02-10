@@ -1,10 +1,9 @@
 'use client'
-import '@/app/style/Header.css'
+import '../style/Header.css'
 import React, {useState, useEffect} from 'react'
-import menu from '@/app/json/headerMenu.json'
+import menu from '../json/headerMenu.json'
 import Link from 'next/link'
 import Image from 'next/image'
-import Kapelu from '@/public/kapelu.webp'
 
 export default function Header() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -32,10 +31,11 @@ export default function Header() {
 						as='/'
 					>
 						<Image
-							src={Kapelu}
+							src='/kapelu.webp'
 							className='image-perfil'
 							alt='logo'
-							width='32'
+							width={32}
+							height={32}
 							priority={true}
 							as='image'
 						/>

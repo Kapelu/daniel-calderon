@@ -1,8 +1,8 @@
 import portafolio from "../json/portfolio.json";
 import Link from "next/link";
 import Image from "next/image";
-import "@/app/globals.css";
-import "@/app/style/portafolio.css";
+import "../globals.css";
+import "../style/portafolio.css";
 
 export default function Portafolio() {
   return (

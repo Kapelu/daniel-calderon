@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import '@/app/style/inicio.css'
+import '../style/inicio.css'
 
 export default function Inicio() {
 	const pdfURL = '/DanielCalderon-CV.pdf'

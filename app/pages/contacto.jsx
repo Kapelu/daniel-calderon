@@ -1,7 +1,7 @@
 //import Link from 'next/link'
 import Image from 'next/image'
-import '@/app/globals.css'
-import '@/app/style/contacto.css'
+import '../globals.css'
+import '../style/contacto.css'
 
 export default function Contacto() {
 	return (

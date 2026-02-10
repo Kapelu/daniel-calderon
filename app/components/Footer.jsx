@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import '@/app/style/Footer.css'
+import '../style/Footer.css'
 
 const year = new Date().getFullYear()
 
