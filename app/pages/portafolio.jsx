@@ -6,7 +6,7 @@ import "../style/portafolio.css";
 
 export default function Portafolio() {
   return (
-    <div className="container">
+    <div className="container portfolio">
       <h2 className="section-title">Mis Trabajos</h2>
 
       {portafolio.map((item, index) => (
@@ -23,7 +23,9 @@ export default function Portafolio() {
             width={400}
             height={400}
             alt={item.titulo}
-          ></Image>
+          >
+
+          </Image>
           <aside className="portfolio-card-info">
             <div>
               <h3>{item.titulo}</h3>
