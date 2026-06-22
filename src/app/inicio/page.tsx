@@ -6,14 +6,6 @@ export default function Inicio() {
 
   return (
     <section className='flex flex-col items-center text-center'>
-      <h1 className='font-gentium text-[10vw] font-bold text-cyan lg:mt-8 lg:text-[4vw]'>
-        Daniel Calderón
-      </h1>
-
-      <h2 className='mt-2 text-[4vw] text-text lg:text-[1.5vw]'>
-        Desarrollador Full Stack
-      </h2>
-
       <Image
         width={320}
         height={320}
@@ -22,6 +14,14 @@ export default function Inicio() {
         priority
         className='mt-10 rounded-full border-2 border-border object-cover shadow-xl'
       />
+
+      <h1 className='font-gentium text-[10vw] font-bold text-cyan lg:mt-8 lg:text-[4vw]'>
+        Daniel Calderón
+      </h1>
+
+      <h2 className='mt-2 text-[4vw] text-text lg:text-[1.5vw]'>
+        Desarrollador Full Stack
+      </h2>
 
       <div className='mt-10 flex flex-wrap justify-center gap-4'>
         <Button

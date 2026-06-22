@@ -54,7 +54,7 @@
   --input-border: #002b36;
 
   --mobile-header-height: 4rem;
-  --section-offset: calc(var(--mobile-header-height) + 4px);
+  --section-offset: calc(var(--mobile-header-height)+1px);
 
   /* debug pantallas*/
   --debug-inicio: #d26d2630;
