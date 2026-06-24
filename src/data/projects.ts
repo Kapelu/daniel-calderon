@@ -1,4 +1,5 @@
 export interface Project {
+  id: string
   title: string
   description: string
   image: string
@@ -9,6 +10,7 @@ export interface Project {
 
 export const projects = [
   {
+    id: 'trabajo-blog-personal',
     title: 'Blog Personal',
     description:
       'Pequeñas guías muy útiles en mi camino como desarrollador full stack.',
@@ -19,6 +21,7 @@ export const projects = [
   },
 
   {
+    id: 'trabajo-html-to-markdown-react-markdown',
     title: 'HTML to Markdown with react-markdown',
     description:
       'Convierte archivos markdown en páginas HTML usando react-markdown.',
@@ -29,6 +32,7 @@ export const projects = [
   },
 
   {
+    id: 'trabajo-html-to-markdown',
     title: 'HTML to Markdown',
     description:
       'Permite convertir archivos markdown en páginas HTML con estilos en CSS.',
@@ -39,6 +43,7 @@ export const projects = [
   },
 
   {
+    id: 'trabajo-cv-daniel-calderon',
     title: 'CV Daniel Calderon',
     description:
       'Primer portafolio tipo Landing Page, realizado puramente con HTML, CSS y un poco de JavaScript.',
@@ -49,6 +54,7 @@ export const projects = [
   },
 
   {
+    id: 'trabajo-app-notas',
     title: 'App Notas',
     description:
       'Aplicación de notas que utiliza localStorage para mantener las notas guardadas incluso después de cerrar el navegador.',
@@ -59,6 +65,7 @@ export const projects = [
   },
 
   {
+    id: 'trabajo-app-todo-list',
     title: 'APP TODO LIST',
     description:
       'Aplicación de tareas que utiliza localStorage para mantener las tareas activas después de cerrar el navegador.',

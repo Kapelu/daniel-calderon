@@ -1,22 +1,23 @@
-import { Button } from "@/components/ui/Button"
+import { Button } from '@/components/ui/Button'
 
 export default function Inicio() {
-
   return (
-    <section className='flex flex-col items-center text-center'>
-      <h2 className='font-gentium mt-40 text-[10vw] font-bold text-cyan lg:text-[4vw]'>
-        Bienvenidos a mi sitio
-      </h2>
+    <div className='flex min-h-[70vh] flex-col items-center justify-center text-center'>
+      <header>
+        <h1 className='text-cyan text-6xl font-bold sm:text-7xl md:text-8xl lg:text-9xl'>
+          Bienvenid@s
+        </h1>
 
-      
+        <p className='mt-4 text-title text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>
+          a mi sitio
+        </p>
+      </header>
 
-      <div className='mt-10 flex flex-wrap justify-center gap-4'>
-        
-
+      <div className='mt-12'>
         <Button href='#contacto' variant='secondary' size='lg'>
           Contactarme
         </Button>
       </div>
-    </section>
+    </div>
   )
 }

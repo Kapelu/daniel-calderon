@@ -22,7 +22,7 @@ export function Blockfooter({
       )}>
       <div
         className={clsx(
-          'font-gentium space-y-4 text-lg font-medium italic text-title leading-4 md:text-xl',
+          'text-center space-y-4 text-lg font-medium italic text-title leading-4 md:text-xl',
         )}>
         {children}
       </div>

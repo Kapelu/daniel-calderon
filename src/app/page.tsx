@@ -3,6 +3,7 @@ import Hero from '@/components/section/Hero'
 import Inicio from './inicio/page'
 import Acerca from './acerca/page'
 import Servicios from './servicios/page'
+import Portafolio from './portafolio/page' 
 import Contact from './contacto/page'
 
 export default function Home() {
@@ -48,8 +49,7 @@ export default function Home() {
         id='portafolio'
         className='debug-portafolio scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
         <Container>
-          {/* Portfolio */}
-          <h1 className='text-5xl font-bold'>Portafolio</h1>
+          <Portafolio />
         </Container>
       </section>
 

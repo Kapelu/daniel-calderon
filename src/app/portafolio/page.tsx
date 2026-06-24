@@ -1,3 +1,27 @@
+import CardProject from '@/components/cards/CardProject'
+import { projects } from '@/data/projects'
+import { Title } from '@/components/ui/Title'
+
 export default function Portafolio() {
-  return <div>Portafolio Page</div>
+  return (
+    <>
+      <header className='mb-16 text-center'>
+        <Title title='Mis Proyectos' />
+
+        <p className='mx-auto mt-6 max-w-2xl text-foreground'>
+          Algunos de los proyectos que he desarrollado, experimentos,
+          herramientas y aplicaciones que forman parte de mi camino como
+          desarrollador Full Stack.
+        </p>
+      </header>
+
+      <div
+        className='grid gap-6 sm:grid-cols-2 lg:grid-cols-3'
+        aria-label='Listado de proyectos'>
+        {projects.map((project) => (
+          <CardProject key={project.id} project={project} />
+        ))}
+      </div>
+    </>
+  )
 }

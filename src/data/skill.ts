@@ -2,19 +2,23 @@ import type { SkillItem } from '@/components/section/Skill'
 
 export const skills: SkillItem[] = [
   {
-    label: 'Diseño Web',
+    label: 'Resolución de problemas',
     value: 85,
   },
   {
-    label: 'Desarrollo Web Frontend',
+    label: 'Adaptabilidad',
     value: 90,
   },
   {
-    label: 'Desarrollo Web Backend',
-    value: 75,
+    label: 'Comunicación',
+    value: 95,
   },
   {
-    label: 'WPO y SEO',
+    label: 'Automotivación',
     value: 80,
+  },
+  {
+    label: 'Gestiión del tiempo',
+    value: 90,
   },
 ]

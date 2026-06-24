@@ -89,18 +89,18 @@ export default function RootLayout({
       lang='es'
       className={`scroll-smooth dark ${gentium.variable}`}
       suppressHydrationWarning>
-      <body className='bg-background text-text'>
+      <body className='font-gentium bg-background text-text'>
         <Providers>
           <div className='flex min-h-screen flex-col pb-16 lg:pb-0'>
-
             <ComeBack />
 
             <Header />
 
-            <main className='flex-1'>{children}</main>
+            <main id='main-content' className='flex-1'>
+              {children}
+            </main>
 
             <Footer />
-
           </div>
         </Providers>
       </body>
