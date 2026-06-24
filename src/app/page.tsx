@@ -55,7 +55,11 @@ export default function Home() {
 
       <section
         id='contacto'
-        className='debug-contacto scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
+        className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
+        <Hero imageSrc='/background.svg'
+          alt='Hero backgound space'
+          opacity={0.2}
+          overlayOpacity={0.4} />
         <Container>
           <Contact />
         </Container>
