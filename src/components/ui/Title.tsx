@@ -14,7 +14,6 @@ export function Title({ title }: TitleProps) {
         px-4
         py-2
         text-center
-        text-xl
         font-semibold
         text-title
       '>

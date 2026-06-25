@@ -8,7 +8,7 @@ export default function Portafolio() {
       <header className='mb-16 text-center'>
         <Title title='Mis Proyectos' />
 
-        <p className='mx-auto mt-6 max-w-2xl text-foreground'>
+        <p>
           Algunos de los proyectos que he desarrollado, experimentos,
           herramientas y aplicaciones que forman parte de mi camino como
           desarrollador Full Stack.

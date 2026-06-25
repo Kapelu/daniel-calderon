@@ -2,6 +2,11 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* Scroll */
+::-webkit-scrollbar {
+	width: 0px;
+}
+
 /* SOLARIZED LIGHT */
 :root {
   /* Base */
@@ -173,7 +178,28 @@ body {
   font-family: var(--font-gentium);
 }
 
-/* Scroll */
-::-webkit-scrollbar {
-	width: 0px;
+@layer base {
+  h1,
+  h2,
+  h3{
+    margin: 0;
+    color: var(--title-color);
+    font-family: var(--font-gentium);
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+  }
+
+  h2 {
+    @apply text-3xl font-bold;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold;
+  }
+
+  p {
+    @apply text-text leading-relaxed;
+  }
 }

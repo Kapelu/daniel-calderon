@@ -13,7 +13,7 @@ export default function Contacto() {
       <header className='mb-16 text-center'>
         <Title title='Contacto' />
 
-        <p className='mx-auto mt-6 max-w-2xl text-text'>
+        <p>
           ¿Tienes una consulta, una propuesta de trabajo o simplemente quieres
           saludar?
         </p>
@@ -100,7 +100,7 @@ export default function Contacto() {
             Envíame un mensaje
           </h2>
 
-          <p className='mt-3 text-muted-foreground'>
+          <p>
             Completa el formulario y te responderé lo antes posible.
           </p>
         </header>
