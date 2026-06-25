@@ -4,18 +4,10 @@ import clsx from 'clsx'
 type HeroProps = {
   imageSrc: `/${string}`
   alt?: string
-  opacity?: number
-  overlayOpacity?: number
   className?: string
 }
 
-export default function Hero({
-  imageSrc,
-  alt = '',
-  opacity = 1,
-  overlayOpacity = 0.2,
-  className,
-}: HeroProps) {
+export default function Hero({ imageSrc, alt = '', className }: HeroProps) {
   return (
     <div className={clsx('absolute inset-0 -z-10 overflow-hidden', className)}>
       <Image
@@ -23,18 +15,10 @@ export default function Hero({
         alt={alt}
         fill
         priority
-        className='object-cover'
-        style={{
-          opacity,
-        }}
+        className='object-cover opacity-50 dark:opacity-20'
       />
 
-      <div
-        className='absolute inset-0 bg-black'
-        style={{
-          opacity: overlayOpacity,
-        }}
-      />
+      <div className='absolute inset-0 bg-black opacity-10 dark:opacity-40' />
     </div>
   )
 }

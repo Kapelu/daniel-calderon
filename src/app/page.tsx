@@ -3,7 +3,7 @@ import Hero from '@/components/section/Hero'
 import Inicio from './inicio/page'
 import Acerca from './acerca/page'
 import Servicios from './servicios/page'
-import Portafolio from './portafolio/page' 
+import Portafolio from './portafolio/page'
 import Contact from './contacto/page'
 
 export default function Home() {
@@ -12,12 +12,7 @@ export default function Home() {
       <section
         id='inicio'
         className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
-        <Hero
-          imageSrc='/background.svg'
-          alt='Hero backgound space'
-          opacity={0.5}
-          overlayOpacity={0.1}
-        />
+        <Hero imageSrc='/background.svg' alt='Hero backgound space' />
         <Container>
           <Inicio />
         </Container>
@@ -34,12 +29,7 @@ export default function Home() {
       <section
         id='servicios'
         className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
-        <Hero
-          imageSrc='/background.svg'
-          alt='Hero backgound space'
-          opacity={0.2}
-          overlayOpacity={0.4}
-        />
+        <Hero imageSrc='/background.svg' alt='Hero backgound space' />
         <Container>
           <Servicios />
         </Container>
@@ -56,10 +46,7 @@ export default function Home() {
       <section
         id='contacto'
         className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
-        <Hero imageSrc='/background.svg'
-          alt='Hero backgound space'
-          opacity={0.2}
-          overlayOpacity={0.4} />
+        <Hero imageSrc='/background.svg' alt='Hero backgound space' />
         <Container>
           <Contact />
         </Container>

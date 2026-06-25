@@ -54,13 +54,6 @@
 
   --mobile-header-height: 4rem;
   --section-offset: calc(var(--mobile-header-height)+1px);
-
-  /* debug pantallas*/
-  --debug-inicio: #d26d2630;
-  --debug-acerca: #99470030;
-  --debug-servicio: #b5000c30;
-  --debug-portafolio: #c4bf6c30;
-  --debug-contacto: #36d38730;
 }
 
 /* SOLARIZED DARK*/
@@ -108,13 +101,6 @@
   --gray-dark-color: #93a1a1;
 
   --input-border: #073642;
-
-  /*debug pantallas*/
-  --debug-inicio: #268bd230;
-  --debug-acerca: #00829930;
-  --debug-servicio: #00b5a930;
-  --debug-portafolio: #6c71c430;
-  --debug-contacto: #d3368230;
 }
 
 /* TAILWIND V4 THEME TOKENS*/
@@ -170,13 +156,6 @@
   --color-button-border: var(--button-border);
 
   --color-input-border: var(--input-border);
-
-  /* colores debug de pantalla*/
-  --color-debug-inicio: var(--debug-inicio);
-  --color-debug-acerca: var(--debug-acerca);
-  --color-debug-servicio: var(--debug-servicio);
-  --color-debug-portafolio: var(--debug-portafolio);
-  --color-debug-contacto: var(--debug-contacto);
 }
 
 /* Base*/
@@ -195,108 +174,6 @@ body {
 }
 
 /* Scroll */
-pre::-webkit-scrollbar {
-  height: 8px;
-}
-
-pre::-webkit-scrollbar-thumb {
-  background: rgb(255 255 255 / 0.2);
-  border-radius: 999px;
-}
-
-/*
-Con esto podrás usar en Tailwind:
-
-bg-background
-text-foreground
-bg-primary
-text-primary
-text-link
-text-title
-text-text
-border-border
-
-text-blue
-text-cyan
-text-green
-text-yellow
-text-orange
-text-red
-text-magenta
-text-violet
-
-por ejemplo:
-            <h1 className="text-title">
-              Mi Blog
-            </h1>
-
-            <p className="text-text">
-              Este es el contenido del artículo.
-            </p>
-
-            <a className="text-link hover:underline">
-              Leer más
-            </a>
-
-            <div className="border border-border">
-              Caja con borde
-            </div>
-
-Con esta configuración podrás usar clases Tailwind como:
-
-bg-primary
-text-primary-foreground
-
-bg-secondary
-text-secondary-foreground
-
-bg-accent
-text-accent-foreground
-
-bg-muted
-text-muted-foreground
-
-border-border
-
-*/
-
-/* Debug de secciones */
-.debug-inicio {
-  background: #268bd220;
-}
-
-.debug-acerca {
-  background: #85990020;
-}
-
-.debug-servicio {
-  background: #b5890020;
-}
-
-.debug-portafolio {
-  background: #6c71c420;
-}
-
-.debug-contacto {
-  background: #d3368220;
-}
-
-.debug-inicio {
-  background: var(--debug-inicio);
-}
-
-.debug-acerca {
-  background: var(--debug-acerca);
-}
-
-.debug-servicio {
-  background: var(--debug-servicio);
-}
-
-.debug-portafolio {
-  background: var(--debug-portafolio);
-}
-
-.debug-contacto {
-  background: var(--debug-contacto);
+::-webkit-scrollbar {
+	width: 0px;
 }
