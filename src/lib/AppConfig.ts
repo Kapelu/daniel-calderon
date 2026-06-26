@@ -1,10 +1,10 @@
 export const AppConfig = {
-  site_name: 'Blog',
+  site_name: 'Portafolio | Daniel Calderon',
 
   title: 'Daniel Calderon | Full Stack Developer',
 
   description:
-    'Blog de Daniel Calderon. Artículos sobre Linux, Script Bash, React, Next.js, TypeScript, Tailwind CSS y desarrollo Full Stack.',
+    'Portafolio profesional de Daniel Calderón, desarrollador Frontend especializado en React, Next.js y TypeScript.',
 
   url: 'https://kapelu.vercel.app',
 
