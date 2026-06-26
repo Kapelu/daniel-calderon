@@ -12,7 +12,11 @@ export default function Home() {
       <section
         id='inicio'
         className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
-        <Hero imageSrc='/background.svg' alt='Hero backgound space' />
+        <Hero
+          imageLight='/bg-light.svg'
+          imageDark='/bg-dark.svg'
+          alt='Hero backgound space'
+        />
         <Container>
           <Inicio />
         </Container>
@@ -29,7 +33,11 @@ export default function Home() {
       <section
         id='servicios'
         className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
-        <Hero imageSrc='/background.svg' alt='Hero backgound space' />
+        <Hero
+          imageLight='/bg-light.svg'
+          imageDark='/bg-dark.svg'
+          alt='Hero backgound space'
+        />
         <Container>
           <Servicios />
         </Container>
@@ -46,7 +54,11 @@ export default function Home() {
       <section
         id='contacto'
         className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
-        <Hero imageSrc='/background.svg' alt='Hero backgound space' />
+        <Hero
+          imageLight='/bg-light.svg'
+          imageDark='/bg-dark.svg'
+          alt='Hero backgound space'
+        />
         <Container>
           <Contact />
         </Container>

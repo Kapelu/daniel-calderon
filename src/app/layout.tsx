@@ -18,6 +18,8 @@ export const metadata: Metadata = {
 
   description: AppConfig.description,
 
+  manifest: '/manifest.json',
+
   keywords: AppConfig.keywords,
 
   authors: [

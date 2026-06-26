@@ -26,7 +26,7 @@ export const projects = [
     description:
       'Convierte archivos markdown en páginas HTML usando react-markdown.',
     image: '/portfolio/portfolio10-markdown-html.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'react-markdown'],
+    technologies: ['CSS', 'React', 'react-markdown'],
     github: 'https://github.com/Kapelu/markdown-to-html',
     demo: 'https://markdown-a-html.netlify.app/',
   },

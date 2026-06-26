@@ -10,10 +10,11 @@
 /* SOLARIZED LIGHT */
 :root {
   /* Base */
-  --background: #fdf6e3; /* base3 */
+  --background: #f9e6b4; /* base3 */
   --foreground: #657b83; /* base00 */
 
-  --muted: #eee8d5; /* base2 */
+  /*--muted: #eee8d5;  base2 */
+  --muted: #f3df9d; /* base2 */
   --muted-foreground: #586e75; /* base01 */
   --border: #eee8d5;
 
