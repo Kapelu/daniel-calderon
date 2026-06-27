@@ -1,1 +1,1 @@
-export const WEBSITE_HOST_URL = 'https://kapelu.vercel.app/'
+export const WEBSITE_HOST_URL = 'https://daniel-calderon.vercel.app/'
