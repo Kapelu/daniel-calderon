@@ -1,4 +1,4 @@
-import CardProject from '@/components/cards/CardProject'
+import ProjectCard from '@/components/cards/ProjectCard'
 import { projects } from '@/data/projects'
 import { Title } from '@/components/ui/Title'
 
@@ -19,7 +19,7 @@ export default function Portafolio() {
         className='grid gap-6 sm:grid-cols-2 lg:grid-cols-3'
         aria-label='Listado de proyectos'>
         {projects.map((project) => (
-          <CardProject key={project.id} project={project} />
+          <ProjectCard key={project.id} project={project} />
         ))}
       </div>
     </>
