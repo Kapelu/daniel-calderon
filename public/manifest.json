@@ -1,10 +1,11 @@
 {
+  "id": "/",
   "name": "Daniel Calderón | Frontend Developer",
   "short_name": "Daniel",
   "description": "Portafolio profesional de Daniel Calderón, desarrollador Frontend especializado en React, Next.js y TypeScript.",
-  "start_url": "/",
+  "start_url": "/?source=pwa",
   "scope": "/",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fdf6e3",
   "theme_color": "#268bd2",
