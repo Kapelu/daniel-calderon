@@ -10,7 +10,7 @@ type Props = {
 export default function CardProject({ project }: Props) {
   return (
     <Link
-      href={project.github}
+      href={project.demo}
       target='_blank'
       rel='noopener noreferrer'
       className='group block h-80 overflow-hidden rounded-xl border border-border/50 bg-muted shadow-sm backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/20 hover:shadow-lg'>

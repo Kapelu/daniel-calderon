@@ -4,7 +4,6 @@ export interface Project {
   description: string
   image: string
   technologies: readonly string[]
-  github: string
   demo: string
 }
 
@@ -14,64 +13,43 @@ export const projects = [
     title: 'Blog Personal',
     description:
       'Pequeñas guías muy útiles en mi camino como desarrollador full stack.',
-    image: '/portfolio/portfolio-blog-kapelu.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'TypeScript'],
-    github: 'https://github.com/kapelu/blog-kapelu',
+    image: '/portfolio/blog-kapelu.png',
+    technologies: ['NextJS', 'TypeScript', 'Tailwind'],
     demo: 'https://kapelu.vercel.app/',
   },
 
   {
-    id: 'trabajo-html-to-markdown-react-markdown',
-    title: 'HTML to Markdown with react-markdown',
+    id: 'trabajo-api-collection',
+    title: 'Api Collection',
     description:
-      'Convierte archivos markdown en páginas HTML usando react-markdown.',
-    image: '/portfolio/portfolio10-markdown-html.png',
-    technologies: ['CSS', 'React', 'react-markdown'],
-    github: 'https://github.com/Kapelu/markdown-to-html',
-    demo: 'https://markdown-a-html.netlify.app/',
+      'Pequeña colección de Api. renderizado de mdx, api Simpson, ToDo List y como subir fotos a cloudinary.',
+    image: '/portfolio/Api-collection.png',
+    technologies: ['NextJS', 'TypeScript', 'Tailwind', 'MDX'],
+    demo: 'https://api-kapelu.vercel.app/',
   },
-
   {
-    id: 'trabajo-html-to-markdown',
-    title: 'HTML to Markdown',
-    description:
-      'Permite convertir archivos markdown en páginas HTML con estilos en CSS.',
-    image: '/portfolio/portfolio9-Markdown-HTML.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/Kapelu/markdown-to-html',
-    demo: 'https://kapelu.github.io/markdown-to-html/',
+    id: 'trabajo-api-simpson',
+    title: 'Api Simpson',
+    description: 'Pequeña Api de los personajes de los simpson.',
+    image: '/portfolio/APISimpson.png',
+    technologies: ['NextJS', 'TypeScript', 'Tailwind'],
+    demo: 'https://api-kapelu.vercel.app/simpson',
   },
-
   {
-    id: 'trabajo-cv-daniel-calderon',
-    title: 'CV Daniel Calderon',
-    description:
-      'Primer portafolio tipo Landing Page, realizado puramente con HTML, CSS y un poco de JavaScript.',
-    image: '/portfolio/portfolio9-cv-daniel-calderon.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/Kapelu/Daniel-Calderon',
-    demo: 'https://kapelu.github.io/daniel-calderon-portfolio/',
+    id: 'trabajo-todo-list',
+    title: 'To-Do List',
+    description: 'Es un pequeño gestor de tareas que usa localStorage.',
+    image: '/portfolio/APIToDoList.png',
+    technologies: ['NextJS', 'TypeScript', 'Tailwind'],
+    demo: 'https://api-kapelu.vercel.app/todolist',
   },
-
   {
-    id: 'trabajo-app-notas',
-    title: 'App Notas',
+    id: 'trabajo-upload',
+    title: 'Upload File to Cloudinary',
     description:
-      'Aplicación de notas que utiliza localStorage para mantener las notas guardadas incluso después de cerrar el navegador.',
-    image: '/portfolio/portfolio7-notas.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'LocalStorage'],
-    github: 'https://github.com/Kapelu/app-notas',
-    demo: 'https://kapelu.github.io/app-notas/',
-  },
-
-  {
-    id: 'trabajo-app-todo-list',
-    title: 'APP TODO LIST',
-    description:
-      'Aplicación de tareas que utiliza localStorage para mantener las tareas activas después de cerrar el navegador.',
-    image: '/portfolio/portfolio4-todo-list.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'LocalStorage'],
-    github: 'https://github.com/Kapelu/app-todo-list',
-    demo: 'https://kapelu.github.io/app-todo-list/',
+      'Interfaz de una aplicacion personal que sube archivos a Cloudinary.',
+    image: '/portfolio/APIUpLoad.png',
+    technologies: ['NextJS', 'TypeScript', 'Tailwind'],
+    demo: 'https://api-kapelu.vercel.app/upload',
   },
 ] satisfies Project[]
