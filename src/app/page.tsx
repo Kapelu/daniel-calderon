@@ -1,0 +1,68 @@
+import { Container } from '@/components/layout/Container'
+import Hero from '@/components/section/Hero'
+import Inicio from './inicio/page'
+import Acerca from './acerca/page'
+import Servicios from './servicios/page'
+import Portafolio from './portafolio/page'
+import Contact from './contacto/page'
+
+export default function Home() {
+  return (
+    <>
+      <section
+        id='inicio'
+        className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
+        <Hero
+          imageLight='/bg-light.svg'
+          imageDark='/bg-dark.svg'
+          alt='Hero backgound space'
+        />
+        <Container>
+          <Inicio />
+        </Container>
+      </section>
+
+      <section
+        id='acerca'
+        className='debug-acerca scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
+        <Container>
+          <Acerca />
+        </Container>
+      </section>
+
+      <section
+        id='servicios'
+        className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
+        <Hero
+          imageLight='/bg-light.svg'
+          imageDark='/bg-dark.svg'
+          alt='Hero backgound space'
+        />
+        <Container>
+          <Servicios />
+        </Container>
+      </section>
+
+      <section
+        id='portafolio'
+        className='debug-portafolio scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
+        <Container>
+          <Portafolio />
+        </Container>
+      </section>
+
+      <section
+        id='contacto'
+        className='relative scroll-mt-(--section-offset) min-h-screen px-4 py-24'>
+        <Hero
+          imageLight='/bg-light.svg'
+          imageDark='/bg-dark.svg'
+          alt='Hero backgound space'
+        />
+        <Container>
+          <Contact />
+        </Container>
+      </section>
+    </>
+  )
+}
