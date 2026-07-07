@@ -9,6 +9,15 @@ export interface Project {
 
 export const projects = [
   {
+    id: 'trabajo-login',
+    title: 'Transporte',
+    description:
+      'Un sistema basado en la administración de viajes de un transporte, totalmente escalable.',
+    image: '/portfolio/login.png',
+    technologies: ['NextJS', 'TypeScript', 'Tailwind'],
+    demo: 'https://login-kapelu.vercel.app/',
+  },
+  {
     id: 'trabajo-blog-personal',
     title: 'Blog Personal',
     description:
