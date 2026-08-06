@@ -5,7 +5,22 @@ export default function Inicio() {
   return (
     <section className='relative flex min-h-[70vh] items-center overflow-hidden'>
       {/* Esfera */}
-      <div className='absolute right-[10%] left-[-5%] top-1/2 h-210 w-210 -translate-y-1/2 opacity-50'>
+      <div
+        className='
+    absolute
+    left-1/2
+    top-1/2
+    aspect-square
+    w-[clamp(18rem,70vw,52rem)]
+    -translate-x-1/2
+    -translate-y-1/2
+    opacity-50
+    sm:left-[45%]
+    lg:left-auto
+    lg:right-[-5%]
+    lg:w-[min(65vw,52rem)]
+    lg:translate-x-0
+  '>
         <TextSphere
           word='@KWS • Full Stack Developer • React • Next.js • TypeScript • '
           color='#00FF41'
