@@ -11,7 +11,7 @@ export default function Inicio() {
     left-1/2
     top-1/2
     aspect-square
-    w-[clamp(20rem,70vw,52rem)]
+    w-[clamp(14rem,70vw,52rem)]
     -translate-x-1/2
     -translate-y-1/2
     opacity-50
