@@ -15,7 +15,7 @@ export const projects = [
       'Un sistema administrativo de transporte. En estado de construcción, totalmente escalable.',
     image: '/portfolio/login.png',
     technologies: ['NextJS', 'TypeScript', 'Tailwind'],
-    demo: 'https://login-kapelu.vercel.app/',
+    demo: 'https://transporte-kapelu.vercel.app/',
   },
   {
     id: 'trabajo-blog-personal',
